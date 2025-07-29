@@ -1,4 +1,5 @@
 Stress, Emotion & Tomography Eye Tracking (with iPhone LiDAR Support)
+
 This project fuses facial analytics, stress/emotion tracking, and a simulated tomographic imaging layer using LiDAR depth data from iPhone 13 Pro Max (Continuity Camera).
 
 It integrates DeepFace for emotion/age/gender detection, Eye Aspect Ratio (EAR) for stress estimation, and Radon transform-based tomography to reconstruct depth slices in real-time.
