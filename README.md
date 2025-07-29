@@ -27,7 +27,7 @@ Tomographic Simulation:
 Dual-window interface: Live facial overlay + separate tomography visualization.
 
 Requirements
-Python 3.8+
+Python 3.10+
 
 macOS with Continuity Camera (iPhone LiDAR capable) / It can be ported to real-time medical sensors.  
 
