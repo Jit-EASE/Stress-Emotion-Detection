@@ -41,3 +41,28 @@ Requirements
 -- scikit-image (for Radon/Inverse Radon transforms - Tomography)
 
 -- numpy
+
+Overview
+
+The project employs a **Difference-in-Differences (DiD)** econometric model, integrating real-world datasets (Enterprise Ireland, CSO, BEEPS, SilverCloud, Laya Healthcare) and AI-enhanced simulations (DeepFaceit, Tomographit) to measure the causal impact of structured workplace mental health interventions.
+
+---
+
+Repository Features**
+- Data transformations: Standardisation, log scaling, and NACE sector aggregation (Pandas).
+- Imputation routines: Median sectoral imputation, hot-deck (KNN), and regression-based completion (Scikit-learn & Statsmodels).
+- AI simulation modules: Monte Carlo adoption scenarios calibrated with Lenze et al. (2022) and Hawrilenko (2025).
+- Diagnostics: VIF checks, PCA decomposition, placebo falsification, and sector-specific sub-analyses.
+- Econometric modelling: Fully robust DiD regression with clustered HC3 errors and sectoral fixed effects.
+
+---
+
+Dependencies**
+This project is built with:
+- Python 3.11
+- Pandas (v2.0)
+- Statsmodels (v0.14)
+- Scikit-learn (v1.4)
+- Seaborn & Matplotlib (visualization)
+- NumPy & SciPy (scientific computation)
+
