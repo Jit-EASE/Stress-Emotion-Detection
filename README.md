@@ -38,6 +38,6 @@ Requirements
 
 -- DeepFace (TensorFlow backend)
 
--- scikit-image (for Radon/Inverse Radon transforms)
+-- scikit-image (for Radon/Inverse Radon transforms - Tomography)
 
 -- numpy
