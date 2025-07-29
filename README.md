@@ -14,7 +14,7 @@ Features
 
 Tomographic Simulation:
 
--- Extracts LiDAR depth ROI of the face.
+-- Extracts LiDAR depth ROI (Region of Interest) of the face.
 
 -- Applies Radon transform to generate projection sinograms.
 
