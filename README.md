@@ -1,5 +1,8 @@
 Stress, Emotion & Tomography Eye Tracking
 
+-- Developed and Designed by Shubhojit Bagchi -- 124107294@umail.ucc.ie - University College Cork, Ireland
+--Prototype Developed as part of MSc. Business Economics Report - "Evaluating the Effectiveness of Corporate Mental Health Interventions on Employee Well-being and Productivity in Ireland"
+
 This project fuses facial analytics, stress/emotion tracking, and a simulated tomographic imaging layer using LiDAR depth data from iPhone 13 Pro Max (Continuity Camera).
 
 It integrates DeepFace for emotion/age/gender detection, Eye Aspect Ratio (EAR) for stress estimation, and Radon transform-based tomography to reconstruct depth slices in real-time.
