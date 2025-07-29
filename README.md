@@ -1,6 +1,6 @@
 Stress, Emotion & Tomography Eye Tracking
 
--- Developed and Designed by Shubhojit Bagchi -- 124107294@umail.ucc.ie - University College Cork, Ireland
+-- Developed and Designed by Shubhojit Bagchi -- 124107294@umail.ucc.ie - University College Cork, Ireland | LinkedIn: https://linkedin.com/in/shubhojitbagchi
 
 -- Prototype Developed as part of MSc. Business Economics Report - "Evaluating the Effectiveness of Corporate Mental Health Interventions on Employee Well-being and Productivity in Ireland"
 
