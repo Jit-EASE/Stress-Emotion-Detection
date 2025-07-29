@@ -4,21 +4,21 @@ This project fuses facial analytics, stress/emotion tracking, and a simulated to
 
 It integrates DeepFace for emotion/age/gender detection, Eye Aspect Ratio (EAR) for stress estimation, and Radon transform-based tomography to reconstruct depth slices in real-time.
 Features
-Real-time Video Feed: Powered by macOS Continuity Camera (iPhone LiDAR-enabled).
+-- Real-time Video Feed: Powered by macOS Continuity Camera (iPhone LiDAR-enabled).
 
-Face Detection & Eye Tracking using dlib’s 68 facial landmarks.
+-- Face Detection & Eye Tracking using dlib’s 68 facial landmarks.
 
-Emotion, Age, Gender Analysis via DeepFace.
+-- Emotion, Age, Gender Analysis via DeepFace.
 
-Stress Estimation: Uses Eye Aspect Ratio (EAR) for blink/stress correlation.
+-- Stress Estimation: Uses Eye Aspect Ratio (EAR) for blink/stress correlation.
 
 Tomographic Simulation:
 
-Extracts LiDAR depth ROI of the face.
+-- Extracts LiDAR depth ROI of the face.
 
-Applies Radon transform to generate projection sinograms.
+-- Applies Radon transform to generate projection sinograms.
 
-Performs inverse Radon reconstruction to create real-time tomographic slices.
+-- Performs inverse Radon reconstruction to create real-time tomographic slices.
 
 Dual-window interface: Live facial overlay + separate tomography visualization.
 
