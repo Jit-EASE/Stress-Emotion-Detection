@@ -1,4 +1,4 @@
-Stress, Emotion & Tomography Eye Tracking (with iPhone Pro Max with LiDAR Sensor)
+Stress, Emotion & Tomography Eye Tracking
 
 This project fuses facial analytics, stress/emotion tracking, and a simulated tomographic imaging layer using LiDAR depth data from iPhone 13 Pro Max (Continuity Camera).
 
