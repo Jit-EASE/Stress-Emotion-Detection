@@ -9,7 +9,7 @@ import numpy as np
 from deepface import DeepFace
 from skimage.transform import radon, iradon
 
-# --- Camera setup (Continuity Camera via iPhone 13 Pro Max Triple Camera & LiDAR Sensor) ---
+# --- Camera setup (Continuity Camera via iPhone 13 Pro Max Triple Rear Camera & LiDAR Sensor) ---
 cap_color = cv2.VideoCapture(0, cv2.CAP_AVFOUNDATION)
 # If AVFoundation fails for depth, you can switch to GStreamer pipeline (uncomment below):
 # depth_pipeline = (
