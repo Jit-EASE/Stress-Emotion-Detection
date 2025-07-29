@@ -27,16 +27,17 @@ Tomographic Simulation:
 Dual-window interface: Live facial overlay + separate tomography visualization.
 
 Requirements
-Python 3.10+
 
-macOS with Continuity Camera (iPhone LiDAR capable) / It can be ported to real-time medical sensors.  
+-- Python 3.10+
 
-OpenCV (with AVFoundation backend)
+-- macOS with Continuity Camera (iPhone LiDAR capable) / It can be ported to real-time medical sensors.  
 
-Dlib (with shape_predictor_68_face_landmarks.dat)
+-- OpenCV (with AVFoundation backend)
 
-DeepFace (TensorFlow backend)
+-- Dlib (with shape_predictor_68_face_landmarks.dat)
 
-scikit-image (for Radon/Inverse Radon transforms)
+-- DeepFace (TensorFlow backend)
 
-numpy
+-- scikit-image (for Radon/Inverse Radon transforms)
+
+-- numpy
