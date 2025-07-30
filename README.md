@@ -42,9 +42,9 @@ Requirements
 
 -- numpy
 
-Overview
+BER Overview
 
-The project employs a **Difference-in-Differences (DiD)** econometric model, integrating real-world datasets (Enterprise Ireland, CSO, BEEPS, SilverCloud, Laya Healthcare) and AI-enhanced simulations (DeepFaceit, Tomographit) to measure the causal impact of structured workplace mental health interventions.
+The project employs a Difference-in-Differences (DiD) econometric model, integrating real-world datasets (Enterprise Ireland, CSO, BEEPS, SilverCloud, Laya Healthcare) and AI-enhanced simulations (DeepFaceit, Tomographit) to measure the causal impact of structured workplace mental health interventions.
 
 ---
 
