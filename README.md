@@ -48,7 +48,7 @@ The project employs a Difference-in-Differences (DiD) econometric model, integra
 
 ---
 
-Repository Features**
+Repository Features
 - Data transformations: Standardisation, log scaling, and NACE sector aggregation (Pandas).
 - Imputation routines: Median sectoral imputation, hot-deck (KNN), and regression-based completion (Scikit-learn & Statsmodels).
 - AI simulation modules: Monte Carlo adoption scenarios calibrated with Lenze et al. (2022) and Hawrilenko (2025).
