@@ -57,7 +57,7 @@ Repository Features
 
 ---
 
-Dependencies**
+Dependencies
 This project is built with:
 - Python 3.11
 - Pandas (v2.0)
