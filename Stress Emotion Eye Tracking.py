@@ -1,106 +1,219 @@
-#Stress and Emotion Detection using Deepface and Tomography
-#Device Used for Testing -- iPhone 13 Pro Max with LiDAR Sensor
-#Prototype Developed and Designed by Shubhojit Bagchi -- 124107294@umail.ucc.ie - University College Cork, Ireland
-#Prototype Developed as part of MSc. Business Economics Report - "Evaluating the Effectiveness of Corporate Mental Health Interventions on Employee Well-being and Productivity in Ireland"
+import os
+import time
+import base64
+import threading
 
 import cv2
-import dlib
 import numpy as np
-from deepface import DeepFace
-from skimage.transform import radon, iradon
+import pandas as pd
+import statsmodels.api as sm
+import plotly.graph_objs as go
+import openai
 
-# --- Camera setup (Continuity Camera via iPhone 13 Pro Max Triple Rear Camera & LiDAR Sensor) ---
-cap_color = cv2.VideoCapture(0, cv2.CAP_AVFOUNDATION)
-# If AVFoundation fails for depth, you can switch to GStreamer pipeline (uncomment below):
-# depth_pipeline = (
-#     'avfvideosrc device-index=1 ! '
-#     'video/x-raw,format=GRAY8,width=1280,height=720 ! appsink drop=true'
-# )
-cap_depth = cv2.VideoCapture(1, cv2.CAP_AVFOUNDATION)
+from dash import Dash, dcc, html, Input, Output, State
+import dash
+import flask
 
-print("Color camera open:", cap_color.isOpened())
-print("Depth camera open:", cap_depth.isOpened())
+# ─────────────────────────────────────────────────────────────────────────────
+# Configuration: pick up your GPT key from env
+openai.api_key = os.getenv("OPENAI_API_KEY", "")
+if not openai.api_key:
+    raise RuntimeError("Set your OPENAI_API_KEY in the environment")
 
-# --- Window setup ---
-cv2.namedWindow("Combined Feed", cv2.WINDOW_NORMAL)    
-cv2.resizeWindow("Combined Feed", 1280, 720)
-cv2.namedWindow("Tomogram Slice", cv2.WINDOW_NORMAL)   
-cv2.resizeWindow("Tomogram Slice", 640, 480)
+# ─────────────────────────────────────────────────────────────────────────────
+# Global data storage
+df = pd.DataFrame(columns=["t", "face_count", "sensor"])
+csv_path = "live_data.csv"
+df.to_csv(csv_path, index=False)
 
-# --- Dlib face & landmark detector ---
-detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+# ─────────────────────────────────────────────────────────────────────────────
+# Camera capture thread
+cap = cv2.VideoCapture(0)
+face_cascade = cv2.CascadeClassifier(
+    cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
+)
+latest_frame = None
+frame_lock = threading.Lock()
 
-# --- Tomography simulation routines ---
-def simulate_tomogram(depth_img_2d, angles=None):
-    """
-    Perform Radon transform and inverse to simulate tomographic slice.
-    """
-    if angles is None:
-        angles = np.linspace(0., 180., max(depth_img_2d.shape), endpoint=False)
-    sinogram = radon(depth_img_2d, theta=angles, circle=True)
-    reconstruction = iradon(sinogram, theta=angles, circle=True)
-    return reconstruction, sinogram
+def capture_frames():
+    global latest_frame
+    while True:
+        ret, frame = cap.read()
+        if not ret:
+            continue
+        with frame_lock:
+            latest_frame = frame.copy()
+        time.sleep(0.03)
 
-# --- Eye aspect ratio computation ---
-def eye_aspect_ratio(eye):
-    A = np.linalg.norm(eye[1] - eye[5])
-    B = np.linalg.norm(eye[2] - eye[4])
-    C = np.linalg.norm(eye[0] - eye[3])
-    return (A + B) / (2.0 * C)
+threading.Thread(target=capture_frames, daemon=True).start()
 
-# --- Main loop ---
-while True:
-    ret_c, frame = cap_color.read()
-    ret_d, depth = cap_depth.read()
-    if not ret_c:
-        print("Failed to grab color frame")
-        break
-    if not ret_d:
-        print("Failed to grab depth frame")
-        break
+# ─────────────────────────────────────────────────────────────────────────────
+# Create Dash app (light mode only)
+app = Dash(__name__, suppress_callback_exceptions=True)
+server = app.server
 
-    # Ensure depth is single-channel 2D
-    if depth.ndim == 3:
-        depth_gray = cv2.cvtColor(depth, cv2.COLOR_BGR2GRAY)
-    else:
-        depth_gray = depth
+app.layout = html.Div(
+    style={"backgroundColor": "#ffffff", "color": "#000000", "fontFamily": "Arial"},
+    children=[
+        html.H1("Live Face & Sensor Dashboard"),
+
+        # Video + Tomogram side by side
+        html.Div(
+            style={"display": "flex", "gap": "20px"},
+            children=[
+                html.Div([
+                    html.Img(
+                        id="live-camera",
+                        style={"border": "2px solid green", "width": "320px", "height": "240px"},
+                    ),
+                    dcc.Interval(id="interval-frame", interval=100, n_intervals=0),
+                ]),
+                html.Div([
+                    html.Img(
+                        id="tomogram",
+                        style={"border": "2px solid blue", "width": "320px", "height": "240px"},
+                    ),
+                    dcc.Interval(id="interval-tomo", interval=200, n_intervals=0),
+                ]),
+            ],
+        ),
+
+        # Sensor and regression plots
+        html.Div([
+            dcc.Graph(id="sensor-waveform"),
+            dcc.Graph(id="face-regression"),
+            dcc.Interval(id="interval-data", interval=500, n_intervals=0),
+        ]),
+
+        html.Hr(),
+        # OpenAI chat
+        html.Div([
+            html.H3("Ask the Agent:"),
+            dcc.Input(id="agent-prompt", type="text", style={"width": "80%"}),
+            html.Button("Send", id="agent-send"),
+            html.Div(
+                id="agent-response",
+                style={
+                    "whiteSpace": "pre-wrap",
+                    "border": "1px solid #ccc",
+                    "padding": "10px",
+                    "marginTop": "10px"
+                },
+            ),
+        ]),
+    ]
+)
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 1) DeepFace video callback
+@app.callback(
+    Output("live-camera", "src"),
+    Input("interval-frame", "n_intervals")
+)
+def update_frame(n):
+    with frame_lock:
+        frame = latest_frame.copy() if latest_frame is not None else None
+    if frame is None:
+        return dash.no_update
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    faces = detector(gray)
+    faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+    for (x, y, w, h) in faces:
+        cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
-    for face in faces:
-        # Extract landmarks
-        shape = predictor(gray, face)
-        coords = np.array([(shape.part(i).x, shape.part(i).y) for i in range(68)])
-        left_eye = coords[36:42]
-        right_eye = coords[42:48]
-        ear = (eye_aspect_ratio(left_eye) + eye_aspect_ratio(right_eye)) / 2.0
+    _, buffer = cv2.imencode(".png", frame)
+    encoded = base64.b64encode(buffer).decode()
+    return f"data:image/png;base64,{encoded}"
 
-        # DeepFace analysis (emotion, age, gender)
-        raw_analysis = DeepFace.analyze(frame, actions=['emotion', 'age', 'gender'], enforce_detection=False)
-        # DeepFace.analyze may return a list if multiple faces; ensure dict
-        analysis = raw_analysis[0] if isinstance(raw_analysis, list) else raw_analysis
+# ─────────────────────────────────────────────────────────────────────────────
+# 2) Tomogram slice callback
+@app.callback(
+    Output("tomogram", "src"),
+    Input("interval-tomo", "n_intervals")
+)
+def update_tomogram(n):
+    # === Replace this with your tomogram-generation logic ===
+    tomo_path = "current_slice.png"
+    if os.path.exists(tomo_path):
+        with open(tomo_path, "rb") as f:
+            data = f.read()
+        b64 = base64.b64encode(data).decode()
+        return f"data:image/png;base64,{b64}"
 
-        # Tomographic simulation on depth ROI
-        x1, y1, x2, y2 = face.left(), face.top(), face.right(), face.bottom()
-        depth_roi = depth_gray[y1:y2, x1:x2]
-        if depth_roi.size and depth_roi.ndim == 2:
-            recon, _ = simulate_tomogram(depth_roi)
-            recon_disp = cv2.normalize(recon, None, 0, 255, cv2.NORM_MINMAX).astype(np.uint8)
-            cv2.imshow('Tomogram Slice', recon_disp)
+    # fallback: blank image
+    blank = np.zeros((240, 320, 3), dtype=np.uint8)
+    _, buf = cv2.imencode(".png", blank)
+    b64 = base64.b64encode(buf).decode()
+    return f"data:image/png;base64,{b64}"
 
-        # Overlay results on color frame
-        cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
-        cv2.putText(frame, f"Emotion: {analysis['dominant_emotion']}", (x1, y2+20), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255,255,255), 2)
-        cv2.putText(frame, f"Age: {analysis['age']}", (x1, y2+40), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255,255,255), 2)
-        cv2.putText(frame, f"Gender: {analysis['gender']}", (x1, y2+60), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255,255,255), 2)
-        cv2.putText(frame, f"EAR: {ear:.2f}", (x1, y2+80), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255,255,255), 2)
+# ─────────────────────────────────────────────────────────────────────────────
+# 3) Sensor waveform & face-vs-sensor regression
+@app.callback(
+    Output("sensor-waveform", "figure"),
+    Output("face-regression", "figure"),
+    Input("interval-data", "n_intervals"),
+)
+def update_data(n):
+    global df
+    t = time.time()
+    sensor_val = float(1.0 + 0.5 * np.sin(t) + 0.1 * np.random.randn())
 
-    cv2.imshow("Combined Feed", frame)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+    with frame_lock:
+        frame = latest_frame.copy() if latest_frame is not None else None
+    face_count = 0
+    if frame is not None:
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        face_count = len(face_cascade.detectMultiScale(gray, 1.3, 5))
 
-cap_color.release()
-cap_depth.release()
-cv2.destroyAllWindows()
+    # append new row
+    df.loc[len(df)] = {"t": t, "face_count": face_count, "sensor": sensor_val}
+    df.to_csv(csv_path, index=False)
+
+    # Sensor plot
+    fig1 = go.Figure(go.Scatter(x=df["t"], y=df["sensor"], mode="lines", name="Sensor"))
+    fig1.update_layout(title="Live Sensor Waveform", xaxis_title="Time", yaxis_title="Sensor")
+
+    # Regression plot
+    fig2 = go.Figure()
+    if len(df) >= 2:
+        X = sm.add_constant(df["sensor"])
+        model = sm.OLS(df["face_count"], X).fit()
+        intercept, slope = model.params
+        line_y = intercept + slope * df["sensor"]
+        fig2.add_traces([
+            go.Scatter(x=df["sensor"], y=df["face_count"], mode="markers", name="Data"),
+            go.Scatter(x=df["sensor"], y=line_y, mode="lines",
+                       name=f"y={slope:.2f}x+{intercept:.2f}")
+        ])
+        stats = f"R²={model.rsquared:.3f}, p={model.pvalues['sensor']:.3g}"
+    else:
+        stats = "Collecting data..."
+    fig2.update_layout(
+        title=f"Face Count vs. Sensor ({stats})",
+        xaxis_title="Sensor",
+        yaxis_title="Face Count",
+    )
+
+    return fig1, fig2
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 4) OpenAI chat callback
+@app.callback(
+    Output("agent-response", "children"),
+    Input("agent-send", "n_clicks"),
+    State("agent-prompt", "value"),
+    prevent_initial_call=True,
+)
+def ask_agent(n, prompt):
+    try:
+        resp = openai.ChatCompletion.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return resp.choices[0].message.content
+    except Exception as e:
+        return f"Error: {e}"
+
+# ─────────────────────────────────────────────────────────────────────────────
+if __name__ == "__main__":
+    app.run(debug=True)
