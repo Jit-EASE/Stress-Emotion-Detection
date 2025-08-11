@@ -1,0 +1,601 @@
+firm_id,year,post,treat,firm_size,sector,region,mh_plan,mh_champion,mh_budget,leadership_support,digital_tool,hybrid_policy,sick_days,presenteeism_flag,turnover_rate,productivity_per_employee,well_being_index,engagement_index,life_satisfaction
+100001,2022,1,0,Small,Other Services,Eastern & Midlands,0,0,0,0,0,1,2.72,0.0,16.3,81.9,60.15,55.71,7.35
+100002,2022,1,0,Small,Hospitality,Eastern & Midlands,0,0,0,0,0,1,2.82,1.0,18.03,59.86,58.47,55.81,7.15
+100003,2022,1,0,Small,Retail,Eastern & Midlands,0,0,0,0,0,0,3.12,0.0,19.43,93.51,58.28,51.65,7.15
+100004,2022,1,0,Large,Production,Eastern & Midlands,0,0,0,0,0,1,3.13,0.0,13.05,87.5,60.27,54.28,6.71
+100005,2022,1,0,Large,Retail,Eastern & Midlands,0,0,0,0,0,0,3.33,1.0,14.88,84.52,59.33,55.84,6.97
+100006,2022,1,0,Large,Business Services,Northern & Western,0,0,0,0,0,0,3.15,0.0,14.38,90.85,55.98,54.13,7.08
+100007,2022,1,0,Small,Retail,Northern & Western,0,0,0,0,0,0,3.26,0.0,13.72,92.31,61.47,59.48,7.17
+100008,2022,1,0,Small,Retail,Northern & Western,0,0,0,0,0,0,3.17,0.0,18.5,92.1,63.14,57.14,7.14
+100009,2022,1,1,Small,Other Services,Southern,1,1,0,1,0,0,2.79,0.0,11.52,70.76,62.36,54.93,7.24
+100010,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,2.42,0.0,17.57,88.8,59.31,56.04,7.25
+100011,2022,1,0,Small,Other Services,Southern,0,0,0,0,0,1,2.4,0.0,15.06,96.6,59.97,55.19,7.2
+100012,2022,1,0,Large,Hospitality,Northern & Western,0,0,0,0,0,0,2.84,0.0,13.96,76.77,61.19,51.2,6.95
+100013,2022,1,0,Large,Other Services,Eastern & Midlands,0,0,0,0,0,0,3.18,0.0,17.02,65.77,58.55,58.44,6.86
+100014,2022,1,0,Large,Hospitality,Northern & Western,0,0,0,0,0,0,3.14,1.0,15.46,70.45,60.97,54.53,7.19
+100015,2022,1,1,Medium,Hospitality,Eastern & Midlands,0,1,1,1,1,1,2.69,0.0,13.36,92.71,64.88,60.23,6.89
+100016,2022,1,0,Large,Hospitality,Eastern & Midlands,0,0,0,0,0,0,3.28,1.0,15.78,64.87,56.65,52.6,7.24
+100017,2022,1,0,Medium,Retail,Northern & Western,0,0,0,0,0,1,2.79,0.0,15.49,90.47,58.42,57.36,7.27
+100018,2022,1,0,Medium,Business Services,Northern & Western,0,0,0,0,0,0,2.54,0.0,12.95,72.24,57.48,54.2,6.9
+100019,2022,1,1,Medium,Hospitality,Eastern & Midlands,1,1,0,1,1,0,2.3,0.0,15.01,92.05,64.55,60.16,6.97
+100020,2022,1,0,Small,Business Services,Southern,0,0,0,0,0,1,3.03,0.0,16.21,105.38,57.8,54.85,7.39
+100021,2022,1,0,Small,Business Services,Southern,0,0,0,0,0,0,3.2,1.0,12.33,82.78,60.75,54.28,7.04
+100022,2022,1,0,Large,Construction,Northern & Western,0,0,0,0,0,0,3.13,0.0,18.2,91.28,55.35,54.19,7.26
+100023,2022,1,0,Large,Construction,Eastern & Midlands,0,0,0,0,0,0,2.83,0.0,15.41,92.81,62.43,55.04,7.26
+100024,2022,1,0,Medium,Production,Southern,0,0,0,0,0,0,3.03,0.0,16.19,97.18,61.89,54.81,7.16
+100025,2022,1,0,Small,Other Services,Northern & Western,0,0,0,0,0,0,3.22,1.0,19.94,87.66,61.83,50.0,7.42
+100026,2022,1,1,Large,Construction,Northern & Western,1,1,1,1,1,0,2.35,0.0,13.86,98.45,65.65,56.98,7.4
+100027,2022,1,1,Large,Hospitality,Eastern & Midlands,1,1,0,0,1,0,2.54,0.0,14.76,91.02,63.66,57.5,7.37
+100028,2022,1,1,Small,Business Services,Southern,1,0,0,0,1,0,1.99,0.0,13.08,75.53,65.54,60.42,6.91
+100029,2022,1,0,Medium,Other Services,Northern & Western,0,0,0,0,0,1,3.22,0.0,20.12,85.15,58.57,54.22,7.21
+100030,2022,1,0,Large,Production,Southern,0,0,0,0,0,0,3.01,0.0,16.28,78.68,58.29,57.18,7.02
+100031,2022,1,0,Large,Construction,Northern & Western,0,0,0,0,0,0,3.39,1.0,18.13,78.27,61.27,57.62,6.89
+100032,2022,1,0,Small,Retail,Northern & Western,0,0,0,0,0,0,2.76,1.0,20.22,100.59,58.99,55.06,7.0
+100033,2022,1,1,Small,Other Services,Southern,0,0,0,1,0,0,3.04,0.0,13.89,82.67,61.92,58.96,7.42
+100034,2022,1,0,Medium,Production,Southern,0,0,0,0,0,0,2.93,0.0,15.43,72.65,56.32,56.28,7.1
+100035,2022,1,1,Medium,Hospitality,Eastern & Midlands,1,0,1,0,1,0,2.24,0.0,10.94,86.68,61.0,59.52,7.61
+100036,2022,1,0,Large,Other Services,Eastern & Midlands,0,0,0,0,0,0,3.25,1.0,15.94,75.88,61.42,55.68,6.85
+100037,2022,1,0,Medium,Business Services,Eastern & Midlands,0,0,0,0,0,0,2.98,0.0,17.86,94.69,57.56,54.38,7.34
+100038,2022,1,1,Large,Hospitality,Eastern & Midlands,1,0,1,1,0,0,2.27,0.0,12.83,97.8,65.28,58.24,7.19
+100039,2022,1,0,Large,Hospitality,Southern,0,0,0,0,0,1,2.98,1.0,14.89,100.24,59.22,54.32,6.86
+100040,2022,1,0,Small,Other Services,Eastern & Midlands,0,0,0,0,0,0,2.99,1.0,16.44,93.82,61.35,54.08,7.33
+100041,2022,1,0,Large,Retail,Southern,0,0,0,0,0,1,3.11,0.0,16.04,92.08,56.85,52.88,6.78
+100042,2022,1,1,Small,Retail,Northern & Western,1,0,1,1,0,0,2.49,0.0,11.38,88.11,61.02,55.38,7.33
+100043,2022,1,0,Large,Other Services,Southern,0,0,0,0,0,0,4.0,1.0,14.32,74.85,55.43,56.48,6.91
+100044,2022,1,1,Large,Other Services,Eastern & Midlands,1,0,1,1,1,1,2.23,0.0,11.14,74.68,67.02,58.84,7.55
+100045,2022,1,0,Large,Other Services,Southern,0,0,0,0,0,0,3.11,0.0,14.91,92.88,58.3,57.34,7.29
+100046,2022,1,1,Medium,Business Services,Southern,1,1,0,1,1,0,2.55,0.0,11.22,92.6,60.67,57.86,7.38
+100047,2022,1,1,Medium,Construction,Southern,0,1,0,0,1,0,2.37,0.0,15.16,108.73,65.19,53.51,7.19
+100048,2022,1,0,Small,Hospitality,Southern,0,0,0,0,0,0,2.61,1.0,19.02,82.37,56.53,57.45,7.1
+100049,2022,1,0,Large,Other Services,Southern,0,0,0,0,0,0,2.47,0.0,16.5,89.96,58.4,56.27,7.09
+100050,2022,1,0,Small,Construction,Eastern & Midlands,0,0,0,0,0,0,2.82,0.0,17.62,75.94,58.31,55.1,7.24
+100051,2022,1,0,Small,Business Services,Southern,0,0,0,0,0,1,3.07,1.0,14.89,77.49,60.26,52.81,7.38
+100052,2022,1,1,Large,Hospitality,Eastern & Midlands,1,1,1,1,0,0,2.63,0.0,14.12,97.12,65.47,60.52,7.78
+100053,2022,1,0,Medium,Construction,Northern & Western,0,0,0,0,0,0,2.76,0.0,19.09,103.15,60.1,57.17,7.22
+100054,2022,1,1,Medium,Hospitality,Southern,0,1,1,0,0,0,2.27,1.0,14.0,82.71,62.2,60.19,7.28
+100055,2022,1,0,Small,Retail,Northern & Western,0,0,0,0,0,1,2.76,0.0,15.84,83.64,57.45,54.23,7.0
+100056,2022,1,1,Medium,Other Services,Eastern & Midlands,1,0,0,0,1,1,2.8,0.0,9.65,84.75,63.51,56.75,7.4
+100057,2022,1,0,Large,Retail,Southern,0,0,0,0,0,1,3.08,1.0,14.06,80.26,58.54,53.21,7.18
+100058,2022,1,1,Large,Production,Northern & Western,1,0,0,0,0,1,2.28,0.0,12.74,92.0,62.52,57.9,6.92
+100059,2022,1,0,Medium,Business Services,Eastern & Midlands,0,0,0,0,0,0,3.0,0.0,14.8,72.4,59.01,57.56,7.2
+100060,2022,1,1,Medium,Other Services,Northern & Western,1,1,1,1,1,0,2.26,0.0,10.74,112.14,63.83,57.81,7.34
+100061,2022,1,0,Small,Construction,Southern,0,0,0,0,0,1,3.16,0.0,15.19,80.79,58.24,53.11,7.37
+100062,2022,1,1,Medium,Hospitality,Southern,1,1,1,1,0,1,2.37,0.0,12.94,89.99,61.72,58.07,7.07
+100063,2022,1,1,Small,Production,Southern,0,0,0,0,1,0,2.82,0.0,10.82,99.31,63.1,65.88,7.05
+100064,2022,1,1,Large,Business Services,Eastern & Midlands,1,1,0,1,0,0,2.73,0.0,15.6,89.44,63.94,59.78,7.21
+100065,2022,1,0,Large,Business Services,Northern & Western,0,0,0,0,0,0,3.11,0.0,19.32,95.06,61.17,51.07,7.24
+100066,2022,1,0,Large,Business Services,Eastern & Midlands,0,0,0,0,0,0,3.13,0.0,18.02,99.87,57.81,52.07,7.14
+100067,2022,1,0,Medium,Construction,Northern & Western,0,0,0,0,0,0,3.04,1.0,17.24,91.97,57.13,54.09,7.17
+100068,2022,1,0,Medium,Other Services,Eastern & Midlands,0,0,0,0,0,0,3.0,0.0,18.82,92.83,59.51,54.96,7.0
+100069,2022,1,0,Medium,Retail,Southern,0,0,0,0,0,1,2.69,0.0,15.63,80.9,59.27,53.64,7.14
+100070,2022,1,1,Small,Production,Northern & Western,1,0,1,1,1,1,2.64,0.0,10.64,93.44,66.54,58.77,7.32
+100071,2022,1,0,Small,Construction,Northern & Western,0,0,0,0,0,1,3.47,0.0,14.98,73.16,62.33,57.29,7.1
+100072,2022,1,0,Small,Hospitality,Northern & Western,0,0,0,0,0,0,3.16,0.0,13.78,80.07,62.39,56.93,6.96
+100073,2022,1,0,Large,Construction,Eastern & Midlands,0,0,0,0,0,0,2.5,0.0,17.33,79.72,58.23,56.84,7.06
+100074,2022,1,0,Small,Hospitality,Southern,0,0,0,0,0,0,2.61,0.0,12.97,72.97,60.75,51.9,7.21
+100075,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,3.38,0.0,15.75,95.24,57.94,50.1,6.95
+100076,2022,1,0,Medium,Business Services,Eastern & Midlands,0,0,0,0,0,0,3.62,0.0,15.36,73.02,56.44,54.9,6.92
+100077,2022,1,0,Large,Construction,Northern & Western,0,0,0,0,0,1,2.54,0.0,12.72,84.64,63.26,56.52,7.15
+100078,2022,1,0,Medium,Retail,Southern,0,0,0,0,0,0,2.74,0.0,17.34,103.49,61.42,55.19,7.11
+100079,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,3.03,0.0,11.69,105.04,58.26,54.94,7.02
+100080,2022,1,1,Medium,Business Services,Southern,1,0,1,1,1,0,2.67,0.0,14.68,91.64,61.5,55.18,7.14
+100081,2022,1,1,Small,Retail,Eastern & Midlands,1,1,0,1,0,1,2.19,1.0,13.86,83.2,64.3,57.85,7.11
+100082,2022,1,0,Small,Construction,Eastern & Midlands,0,0,0,0,0,1,2.7,0.0,16.95,89.72,57.67,57.02,7.46
+100083,2022,1,0,Medium,Retail,Southern,0,0,0,0,0,0,3.13,1.0,20.66,92.01,60.25,52.85,6.94
+100084,2022,1,1,Medium,Construction,Southern,1,0,0,1,0,0,2.82,0.0,16.36,92.4,63.29,59.89,7.46
+100085,2022,1,0,Medium,Hospitality,Eastern & Midlands,0,0,0,0,0,0,2.85,1.0,17.9,98.51,58.47,54.99,7.05
+100086,2022,1,0,Medium,Production,Southern,0,0,0,0,0,1,2.53,1.0,18.79,82.0,56.43,53.76,7.33
+100087,2022,1,0,Small,Production,Southern,0,0,0,0,0,1,2.95,1.0,15.82,105.39,60.7,56.01,6.7
+100088,2022,1,0,Large,Other Services,Northern & Western,0,0,0,0,0,0,3.28,0.0,18.39,78.9,60.58,54.97,7.26
+100089,2022,1,0,Medium,Other Services,Eastern & Midlands,0,0,0,0,0,0,2.95,0.0,17.42,94.72,60.08,55.18,6.99
+100090,2022,1,0,Small,Hospitality,Eastern & Midlands,0,0,0,0,0,0,3.72,0.0,17.05,84.58,61.16,56.8,6.92
+100091,2022,1,1,Medium,Retail,Southern,0,0,0,1,1,0,2.2,0.0,10.3,80.9,64.36,58.92,7.12
+100092,2022,1,1,Large,Construction,Southern,0,0,0,1,0,0,2.59,0.0,13.74,88.42,62.95,53.52,7.13
+100093,2022,1,0,Small,Production,Southern,0,0,0,0,0,1,3.19,0.0,19.56,94.14,64.81,53.13,7.28
+100094,2022,1,0,Small,Construction,Eastern & Midlands,0,0,0,0,0,1,3.05,0.0,13.23,82.36,57.93,54.92,7.01
+100095,2022,1,0,Large,Hospitality,Northern & Western,0,0,0,0,0,1,2.65,0.0,18.68,77.7,58.84,56.76,6.98
+100096,2022,1,1,Large,Retail,Eastern & Midlands,0,1,0,1,0,0,2.5,0.0,13.81,78.81,63.52,58.05,7.53
+100097,2022,1,1,Small,Construction,Northern & Western,1,1,1,0,0,0,2.45,0.0,13.3,73.61,63.06,61.15,7.06
+100098,2022,1,0,Large,Retail,Southern,0,0,0,0,0,0,3.02,0.0,13.89,75.14,60.3,56.87,7.18
+100099,2022,1,0,Medium,Production,Eastern & Midlands,0,0,0,0,0,0,3.28,0.0,16.84,71.93,57.38,54.57,6.7
+100100,2022,1,0,Large,Construction,Northern & Western,0,0,0,0,0,0,2.66,0.0,13.66,97.33,58.48,51.73,7.04
+100101,2022,1,0,Large,Business Services,Eastern & Midlands,0,0,0,0,0,1,3.0,1.0,17.4,91.11,59.9,53.35,7.47
+100102,2022,1,1,Small,Production,Northern & Western,1,0,1,0,1,1,2.6,0.0,12.79,106.5,65.27,58.26,7.2
+100103,2022,1,1,Large,Retail,Northern & Western,0,0,1,0,1,0,2.65,0.0,14.59,82.99,68.17,59.66,7.11
+100104,2022,1,0,Small,Hospitality,Eastern & Midlands,0,0,0,0,0,0,2.45,0.0,14.44,92.9,59.66,54.32,7.18
+100105,2022,1,1,Medium,Business Services,Southern,0,1,0,0,1,0,2.56,0.0,14.27,80.93,61.09,54.71,7.42
+100106,2022,1,0,Large,Other Services,Eastern & Midlands,0,0,0,0,0,0,3.31,1.0,18.87,77.7,57.94,57.04,7.37
+100107,2022,1,0,Large,Construction,Southern,0,0,0,0,0,0,2.63,0.0,12.78,71.53,58.84,56.23,7.1
+100108,2022,1,1,Small,Other Services,Northern & Western,1,1,1,1,0,0,2.09,0.0,14.09,85.59,62.35,57.3,7.4
+100109,2022,1,1,Small,Production,Northern & Western,0,0,1,0,0,0,2.97,0.0,13.85,84.71,60.79,57.91,7.17
+100110,2022,1,0,Large,Construction,Eastern & Midlands,0,0,0,0,0,1,2.62,0.0,14.69,82.73,57.84,54.89,6.94
+100111,2022,1,0,Small,Construction,Eastern & Midlands,0,0,0,0,0,0,2.88,0.0,13.12,90.22,57.25,53.58,6.91
+100112,2022,1,0,Large,Business Services,Southern,0,0,0,0,0,1,3.36,0.0,15.85,83.62,57.65,58.2,7.12
+100113,2022,1,0,Medium,Business Services,Southern,0,0,0,0,0,0,3.16,0.0,17.11,77.4,58.31,52.51,6.67
+100114,2022,1,1,Large,Business Services,Eastern & Midlands,0,1,1,1,1,0,2.43,0.0,12.36,92.27,59.94,60.75,7.91
+100115,2022,1,0,Medium,Business Services,Southern,0,0,0,0,0,0,3.29,0.0,16.44,86.57,59.36,56.23,7.46
+100116,2022,1,1,Medium,Hospitality,Southern,0,0,0,1,1,0,2.9,0.0,11.69,112.26,62.61,58.25,7.16
+100117,2022,1,0,Small,Retail,Eastern & Midlands,0,0,0,0,0,1,3.08,1.0,14.67,98.45,58.0,53.66,6.92
+100118,2022,1,0,Small,Business Services,Eastern & Midlands,0,0,0,0,0,0,3.49,0.0,14.35,79.32,57.95,55.01,7.34
+100119,2022,1,1,Small,Production,Northern & Western,0,0,0,1,1,1,2.08,0.0,11.3,94.09,64.11,54.73,7.53
+100120,2022,1,1,Small,Construction,Northern & Western,0,1,1,1,0,0,2.27,0.0,13.24,75.42,62.51,59.47,7.47
+100121,2022,1,1,Large,Other Services,Eastern & Midlands,1,1,0,1,1,1,2.69,0.0,10.67,107.32,63.87,56.81,7.11
+100122,2022,1,0,Medium,Business Services,Northern & Western,0,0,0,0,0,0,2.85,0.0,16.53,85.33,55.62,57.31,7.21
+100123,2022,1,0,Large,Production,Southern,0,0,0,0,0,0,2.7,0.0,15.62,86.03,60.61,49.55,6.87
+100124,2022,1,0,Medium,Hospitality,Eastern & Midlands,0,0,0,0,0,1,3.22,0.0,18.29,81.55,59.63,54.23,7.32
+100125,2022,1,0,Medium,Production,Northern & Western,0,0,0,0,0,0,2.95,1.0,16.07,84.66,60.07,57.13,7.32
+100126,2022,1,1,Medium,Other Services,Eastern & Midlands,0,0,0,1,1,0,2.54,1.0,12.35,94.18,62.95,61.1,7.55
+100127,2022,1,0,Large,Other Services,Northern & Western,0,0,0,0,0,1,3.36,0.0,15.4,78.21,58.86,56.27,7.16
+100128,2022,1,0,Small,Production,Eastern & Midlands,0,0,0,0,0,1,3.16,1.0,12.04,78.17,55.55,57.29,7.03
+100129,2022,1,0,Large,Hospitality,Southern,0,0,0,0,0,0,2.76,0.0,17.0,83.58,58.7,58.43,7.14
+100130,2022,1,0,Medium,Other Services,Northern & Western,0,0,0,0,0,1,3.38,0.0,13.67,71.86,61.04,50.71,7.24
+100131,2022,1,0,Large,Hospitality,Eastern & Midlands,0,0,0,0,0,0,3.12,1.0,15.73,98.24,61.61,55.31,6.97
+100132,2022,1,0,Medium,Construction,Southern,0,0,0,0,0,0,2.8,0.0,13.43,90.1,60.79,56.78,6.92
+100133,2022,1,0,Small,Business Services,Northern & Western,0,0,0,0,0,0,3.11,1.0,15.79,84.0,61.95,57.12,7.19
+100134,2022,1,1,Small,Other Services,Northern & Western,1,0,0,1,1,0,3.16,0.0,14.5,94.04,62.35,57.85,7.44
+100135,2022,1,1,Large,Production,Eastern & Midlands,0,1,1,1,0,1,2.69,0.0,12.21,101.5,61.38,58.69,7.14
+100136,2022,1,1,Small,Retail,Southern,0,1,1,1,0,1,2.23,0.0,14.3,92.98,64.26,57.97,7.13
+100137,2022,1,1,Medium,Retail,Eastern & Midlands,1,1,1,1,0,1,2.11,0.0,12.28,80.71,63.0,56.25,7.14
+100138,2022,1,0,Medium,Construction,Northern & Western,0,0,0,0,0,0,3.05,1.0,16.63,84.41,60.26,54.39,7.27
+100139,2022,1,1,Small,Retail,Eastern & Midlands,1,1,1,1,1,1,2.54,0.0,13.24,95.73,63.14,60.22,7.29
+100140,2022,1,0,Small,Construction,Eastern & Midlands,0,0,0,0,0,0,2.94,0.0,16.51,98.88,61.11,55.27,6.98
+100141,2022,1,0,Small,Business Services,Southern,0,0,0,0,0,1,2.9,0.0,16.38,86.61,56.98,52.17,6.71
+100142,2022,1,0,Large,Construction,Southern,0,0,0,0,0,0,3.19,0.0,15.81,79.87,59.05,55.08,7.05
+100143,2022,1,0,Large,Hospitality,Northern & Western,0,0,0,0,0,0,2.78,0.0,18.0,97.13,62.75,56.94,6.91
+100144,2022,1,0,Medium,Hospitality,Southern,0,0,0,0,0,0,2.98,0.0,17.03,97.63,56.77,52.02,7.08
+100145,2022,1,1,Large,Hospitality,Eastern & Midlands,1,0,1,0,0,0,2.32,0.0,8.36,94.76,60.56,54.3,7.32
+100146,2022,1,1,Large,Other Services,Northern & Western,1,0,0,1,0,0,2.38,0.0,14.58,74.01,65.57,59.33,7.02
+100147,2022,1,1,Medium,Hospitality,Southern,1,1,0,1,1,0,2.83,1.0,16.04,99.06,63.08,58.96,7.03
+100148,2022,1,0,Medium,Hospitality,Eastern & Midlands,0,0,0,0,0,0,3.07,0.0,17.35,94.96,58.65,54.46,7.49
+100149,2022,1,0,Small,Hospitality,Eastern & Midlands,0,0,0,0,0,1,3.17,0.0,20.21,92.36,59.01,56.99,6.98
+100150,2022,1,1,Small,Hospitality,Northern & Western,0,1,1,0,0,1,2.55,0.0,13.66,85.02,64.0,59.66,7.49
+100151,2022,1,0,Large,Other Services,Northern & Western,0,0,0,0,0,1,2.6,1.0,16.82,64.35,57.41,55.36,7.2
+100152,2022,1,1,Medium,Hospitality,Southern,0,1,1,1,1,0,2.26,0.0,10.53,116.23,61.75,60.93,7.38
+100153,2022,1,0,Large,Hospitality,Southern,0,0,0,0,0,0,3.15,0.0,16.46,81.56,60.04,56.39,6.9
+100154,2022,1,0,Large,Business Services,Southern,0,0,0,0,0,0,3.22,0.0,14.13,89.99,54.3,55.57,7.12
+100155,2022,1,1,Medium,Other Services,Southern,0,1,0,1,1,1,1.83,1.0,9.89,97.01,66.54,56.28,7.53
+100156,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,3.42,1.0,17.89,96.56,59.59,55.39,7.44
+100157,2022,1,0,Medium,Construction,Eastern & Midlands,0,0,0,0,0,0,2.7,1.0,16.0,75.26,56.9,58.12,7.09
+100158,2022,1,0,Medium,Business Services,Eastern & Midlands,0,0,0,0,0,0,3.53,0.0,18.72,86.0,56.89,53.63,7.02
+100159,2022,1,0,Large,Other Services,Southern,0,0,0,0,0,0,2.71,0.0,19.1,98.41,57.8,52.46,7.2
+100160,2022,1,0,Large,Retail,Northern & Western,0,0,0,0,0,1,3.24,1.0,13.59,99.27,59.58,56.63,7.31
+100161,2022,1,0,Large,Production,Southern,0,0,0,0,0,1,3.08,0.0,16.43,91.96,55.81,53.81,6.72
+100162,2022,1,0,Medium,Other Services,Southern,0,0,0,0,0,1,2.78,1.0,13.89,86.2,59.65,56.14,6.99
+100163,2022,1,0,Small,Business Services,Northern & Western,0,0,0,0,0,0,3.0,0.0,16.55,83.26,59.09,53.12,6.88
+100164,2022,1,0,Large,Hospitality,Eastern & Midlands,0,0,0,0,0,0,3.26,0.0,18.11,77.57,58.0,54.26,7.05
+100165,2022,1,0,Small,Business Services,Eastern & Midlands,0,0,0,0,0,1,2.87,0.0,14.18,77.63,58.84,53.42,6.71
+100166,2022,1,0,Small,Production,Southern,0,0,0,0,0,0,3.32,0.0,14.43,93.73,57.74,55.76,7.35
+100167,2022,1,0,Small,Production,Northern & Western,0,0,0,0,0,1,2.79,1.0,10.69,77.64,58.43,55.74,7.13
+100168,2022,1,1,Medium,Other Services,Eastern & Midlands,0,1,1,0,1,1,2.51,1.0,15.5,77.99,66.93,56.74,7.51
+100169,2022,1,0,Medium,Hospitality,Eastern & Midlands,0,0,0,0,0,1,2.61,0.0,18.1,83.39,61.9,55.13,7.07
+100170,2022,1,0,Large,Hospitality,Northern & Western,0,0,0,0,0,1,3.09,0.0,15.61,97.09,57.2,56.65,7.13
+100171,2022,1,0,Large,Construction,Northern & Western,0,0,0,0,0,0,2.98,0.0,12.4,88.2,57.03,53.8,7.23
+100172,2022,1,0,Medium,Production,Eastern & Midlands,0,0,0,0,0,0,3.03,0.0,15.19,81.3,59.48,54.0,7.04
+100173,2022,1,1,Medium,Hospitality,Southern,0,1,0,0,0,1,2.09,0.0,13.47,90.63,63.03,60.7,7.09
+100174,2022,1,0,Small,Production,Southern,0,0,0,0,0,0,2.73,0.0,17.28,90.62,60.17,55.88,7.22
+100175,2022,1,1,Medium,Construction,Eastern & Midlands,1,0,1,1,0,1,2.48,0.0,8.62,98.84,65.55,61.74,7.53
+100176,2022,1,0,Medium,Retail,Southern,0,0,0,0,0,1,3.63,1.0,17.97,90.77,61.41,55.08,7.3
+100177,2022,1,0,Medium,Production,Southern,0,0,0,0,0,0,2.92,1.0,15.46,95.43,60.52,51.71,6.73
+100178,2022,1,1,Medium,Construction,Northern & Western,0,1,1,0,1,0,2.73,0.0,13.99,101.94,62.9,55.13,7.39
+100179,2022,1,0,Small,Construction,Northern & Western,0,0,0,0,0,0,3.7,0.0,17.05,83.87,59.71,53.34,7.23
+100180,2022,1,0,Large,Construction,Northern & Western,0,0,0,0,0,0,2.82,0.0,14.62,93.55,60.87,54.79,6.5
+100181,2022,1,0,Small,Business Services,Southern,0,0,0,0,0,0,3.39,0.0,14.37,81.36,62.1,55.32,7.52
+100182,2022,1,0,Medium,Other Services,Northern & Western,0,0,0,0,0,0,2.94,1.0,14.79,71.59,61.79,54.59,7.31
+100183,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,3.03,0.0,11.89,86.97,57.95,55.51,7.12
+100184,2022,1,1,Large,Production,Eastern & Midlands,1,0,1,1,1,1,2.73,0.0,9.79,87.3,59.41,54.98,7.27
+100185,2022,1,0,Large,Other Services,Northern & Western,0,0,0,0,0,1,3.09,0.0,18.57,70.92,60.08,53.2,7.12
+100186,2022,1,0,Large,Business Services,Eastern & Midlands,0,0,0,0,0,1,2.71,0.0,15.89,107.61,58.8,58.49,6.73
+100187,2022,1,1,Small,Production,Southern,1,1,0,1,1,1,2.59,0.0,10.09,106.44,64.93,56.36,7.42
+100188,2022,1,0,Large,Other Services,Northern & Western,0,0,0,0,0,1,2.7,0.0,13.45,79.6,59.58,53.22,7.2
+100189,2022,1,0,Medium,Business Services,Eastern & Midlands,0,0,0,0,0,0,3.28,0.0,15.38,77.82,55.38,56.15,7.26
+100190,2022,1,0,Medium,Hospitality,Eastern & Midlands,0,0,0,0,0,0,3.16,0.0,18.64,75.6,53.28,56.89,7.14
+100191,2022,1,1,Medium,Construction,Eastern & Midlands,1,1,1,1,1,0,2.46,0.0,7.66,96.63,63.65,58.11,7.24
+100192,2022,1,0,Small,Other Services,Southern,0,0,0,0,0,0,3.12,1.0,16.75,93.3,57.35,56.28,7.13
+100193,2022,1,0,Large,Other Services,Northern & Western,0,0,0,0,0,1,2.67,1.0,16.73,82.8,57.56,57.28,7.34
+100194,2022,1,1,Large,Production,Southern,1,0,1,1,1,1,2.62,0.0,14.33,108.91,63.64,56.99,7.15
+100195,2022,1,0,Large,Construction,Eastern & Midlands,0,0,0,0,0,0,3.07,1.0,14.56,71.92,57.84,55.46,7.24
+100196,2022,1,0,Large,Hospitality,Southern,0,0,0,0,0,0,2.87,0.0,18.44,79.7,58.18,56.44,7.11
+100197,2022,1,0,Medium,Production,Southern,0,0,0,0,0,0,3.12,0.0,19.38,83.36,57.02,54.07,7.11
+100198,2022,1,0,Small,Retail,Eastern & Midlands,0,0,0,0,0,0,2.95,0.0,14.76,81.01,59.75,54.37,7.35
+100199,2022,1,0,Large,Retail,Northern & Western,0,0,0,0,0,1,2.98,0.0,14.57,75.53,62.14,54.52,6.7
+100200,2022,1,0,Medium,Retail,Northern & Western,0,0,0,0,0,1,3.06,0.0,17.51,93.36,58.67,54.25,7.16
+100201,2022,1,0,Medium,Hospitality,Southern,0,0,0,0,0,0,2.78,1.0,13.95,96.63,60.53,55.47,6.65
+100202,2022,1,0,Small,Retail,Northern & Western,0,0,0,0,0,0,2.24,1.0,15.87,98.14,59.07,52.67,7.57
+100203,2022,1,1,Large,Other Services,Eastern & Midlands,1,0,1,1,1,0,2.22,1.0,14.11,99.95,65.22,57.88,7.86
+100204,2022,1,1,Small,Production,Northern & Western,1,0,1,1,0,1,2.78,0.0,12.27,82.3,68.18,61.47,7.18
+100205,2022,1,0,Large,Other Services,Southern,0,0,0,0,0,0,3.35,0.0,15.3,89.55,61.73,50.02,7.39
+100206,2022,1,0,Small,Retail,Eastern & Midlands,0,0,0,0,0,1,3.26,0.0,17.32,86.43,57.71,52.48,7.09
+100207,2022,1,1,Large,Production,Eastern & Midlands,1,1,0,1,0,0,2.36,0.0,15.67,104.12,61.45,55.08,7.49
+100208,2022,1,0,Large,Other Services,Eastern & Midlands,0,0,0,0,0,1,3.17,0.0,15.63,73.44,57.39,50.71,7.11
+100209,2022,1,1,Small,Hospitality,Southern,0,1,0,1,0,1,2.54,0.0,9.41,95.73,63.91,59.08,7.31
+100210,2022,1,0,Large,Construction,Southern,0,0,0,0,0,1,2.76,1.0,14.13,78.2,58.08,55.41,7.19
+100211,2022,1,0,Small,Other Services,Northern & Western,0,0,0,0,0,0,3.18,0.0,16.0,89.31,56.48,55.05,7.17
+100212,2022,1,0,Small,Business Services,Southern,0,0,0,0,0,1,2.97,1.0,14.48,103.81,58.03,51.31,7.35
+100213,2022,1,0,Large,Retail,Eastern & Midlands,0,0,0,0,0,1,2.65,0.0,18.83,78.93,58.02,54.33,7.11
+100214,2022,1,0,Large,Business Services,Southern,0,0,0,0,0,1,2.5,0.0,14.67,58.94,57.69,53.58,6.83
+100215,2022,1,0,Small,Construction,Southern,0,0,0,0,0,0,2.37,0.0,14.12,74.94,62.75,51.79,6.8
+100216,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,2.81,1.0,16.74,92.08,59.75,56.08,7.26
+100217,2022,1,1,Small,Other Services,Eastern & Midlands,1,1,0,1,1,0,2.48,0.0,11.36,103.54,60.16,56.51,7.55
+100218,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,2.71,0.0,16.54,86.59,58.41,54.44,7.19
+100219,2022,1,0,Medium,Construction,Northern & Western,0,0,0,0,0,0,3.3,0.0,18.14,82.35,60.46,51.12,7.21
+100220,2022,1,0,Small,Business Services,Northern & Western,0,0,0,0,0,0,2.94,0.0,15.45,86.59,59.43,56.76,6.86
+100221,2022,1,0,Small,Other Services,Eastern & Midlands,0,0,0,0,0,0,2.74,0.0,13.47,77.17,56.38,57.32,7.14
+100222,2022,1,0,Small,Retail,Northern & Western,0,0,0,0,0,0,2.69,1.0,12.11,84.93,58.73,57.35,7.33
+100223,2022,1,1,Medium,Production,Eastern & Midlands,1,0,1,0,1,1,2.61,0.0,14.31,95.36,64.01,59.11,7.29
+100224,2022,1,1,Small,Hospitality,Northern & Western,0,1,1,0,0,0,3.03,0.0,11.32,105.34,61.07,55.49,7.39
+100225,2022,1,0,Small,Construction,Northern & Western,0,0,0,0,0,1,2.92,0.0,17.38,72.0,59.14,57.0,7.08
+100226,2022,1,0,Large,Other Services,Eastern & Midlands,0,0,0,0,0,1,2.6,1.0,16.51,93.96,60.54,53.61,6.68
+100227,2022,1,0,Large,Business Services,Southern,0,0,0,0,0,1,1.92,0.0,16.58,61.31,58.42,52.31,7.23
+100228,2022,1,1,Large,Retail,Northern & Western,1,0,0,1,1,0,2.41,0.0,11.31,96.28,65.85,54.88,7.25
+100229,2022,1,0,Small,Business Services,Southern,0,0,0,0,0,0,2.64,0.0,17.68,84.14,63.16,54.9,7.1
+100230,2022,1,0,Small,Retail,Northern & Western,0,0,0,0,0,1,3.35,0.0,17.21,70.08,59.23,56.45,7.02
+100231,2022,1,0,Small,Other Services,Southern,0,0,0,0,0,0,3.3,0.0,15.78,85.7,59.39,54.88,7.09
+100232,2022,1,0,Medium,Production,Southern,0,0,0,0,0,0,2.95,1.0,15.32,76.57,58.45,56.91,7.15
+100233,2022,1,0,Medium,Production,Southern,0,0,0,0,0,0,3.19,0.0,19.38,108.78,56.04,55.04,7.21
+100234,2022,1,1,Large,Construction,Southern,0,1,1,0,0,1,2.91,0.0,13.49,100.85,62.14,59.08,7.41
+100235,2022,1,1,Medium,Construction,Southern,1,0,1,1,0,0,2.54,0.0,11.05,90.04,64.81,55.05,7.01
+100236,2022,1,0,Medium,Retail,Eastern & Midlands,0,0,0,0,0,0,3.29,0.0,12.94,94.53,60.82,56.52,7.4
+100237,2022,1,0,Medium,Retail,Southern,0,0,0,0,0,0,2.67,0.0,14.77,86.91,57.59,54.43,7.01
+100238,2022,1,0,Large,Retail,Eastern & Midlands,0,0,0,0,0,1,3.06,0.0,16.82,65.82,55.29,53.99,7.75
+100239,2022,1,1,Large,Retail,Northern & Western,1,0,0,0,0,0,2.07,0.0,15.21,84.77,62.64,57.62,7.19
+100240,2022,1,0,Medium,Other Services,Eastern & Midlands,0,0,0,0,0,0,3.28,0.0,14.03,95.43,60.05,55.36,6.94
+100241,2022,1,0,Small,Other Services,Southern,0,0,0,0,0,0,3.03,0.0,15.29,75.1,61.66,56.26,7.02
+100242,2022,1,0,Large,Production,Eastern & Midlands,0,0,0,0,0,1,3.36,1.0,15.59,80.49,57.08,57.05,6.82
+100243,2022,1,0,Medium,Construction,Southern,0,0,0,0,0,1,2.84,0.0,16.74,75.07,59.81,54.64,6.84
+100244,2022,1,0,Small,Construction,Eastern & Midlands,0,0,0,0,0,1,3.35,0.0,15.91,90.35,60.16,59.1,6.85
+100245,2022,1,1,Small,Hospitality,Northern & Western,0,1,0,1,1,0,2.86,0.0,17.73,105.44,63.5,59.93,7.32
+100246,2022,1,0,Large,Construction,Southern,0,0,0,0,0,0,2.42,1.0,13.02,78.91,58.21,57.28,6.93
+100247,2022,1,1,Small,Construction,Southern,0,1,1,0,1,1,3.22,0.0,15.09,86.25,63.33,59.15,7.58
+100248,2022,1,1,Large,Business Services,Eastern & Midlands,0,1,1,0,1,0,2.58,0.0,15.28,99.32,63.57,58.83,7.23
+100249,2022,1,1,Medium,Business Services,Eastern & Midlands,1,1,0,1,0,0,2.57,0.0,13.08,79.47,61.83,57.84,7.16
+100250,2022,1,0,Large,Hospitality,Eastern & Midlands,0,0,0,0,0,0,3.08,0.0,14.55,80.69,58.23,55.1,6.94
+100251,2022,1,0,Small,Retail,Eastern & Midlands,0,0,0,0,0,0,2.87,0.0,15.81,81.85,59.88,54.7,7.14
+100252,2022,1,0,Large,Hospitality,Eastern & Midlands,0,0,0,0,0,0,3.54,0.0,17.0,84.92,62.37,55.59,7.16
+100253,2022,1,0,Large,Hospitality,Southern,0,0,0,0,0,1,3.04,1.0,16.8,77.91,59.08,55.85,6.76
+100254,2022,1,0,Medium,Production,Northern & Western,0,0,0,0,0,0,3.4,0.0,12.56,87.04,59.95,55.78,7.26
+100255,2022,1,0,Small,Other Services,Eastern & Midlands,0,0,0,0,0,1,2.9,0.0,18.25,87.05,58.25,52.81,7.28
+100256,2022,1,0,Large,Construction,Southern,0,0,0,0,0,0,3.12,0.0,13.4,74.28,57.96,55.66,7.04
+100257,2022,1,1,Medium,Production,Northern & Western,1,1,1,0,1,0,2.16,0.0,12.4,95.78,62.08,58.21,7.25
+100258,2022,1,0,Medium,Other Services,Northern & Western,0,0,0,0,0,0,2.93,0.0,18.76,116.83,60.97,53.46,7.29
+100259,2022,1,1,Medium,Construction,Eastern & Midlands,1,0,0,0,0,0,1.89,0.0,14.38,101.89,61.21,55.07,7.61
+100260,2022,1,1,Medium,Hospitality,Southern,1,0,1,1,0,0,2.36,0.0,15.62,97.66,64.22,59.97,7.15
+100261,2022,1,0,Medium,Construction,Southern,0,0,0,0,0,1,3.26,0.0,15.79,74.76,60.2,52.85,7.02
+100262,2022,1,0,Large,Retail,Southern,0,0,0,0,0,0,3.0,0.0,17.33,92.58,63.5,56.57,7.15
+100263,2022,1,0,Large,Retail,Southern,0,0,0,0,0,0,2.94,0.0,17.5,91.34,61.09,52.18,6.73
+100264,2022,1,1,Small,Hospitality,Southern,1,1,0,1,1,0,2.04,1.0,8.86,108.43,64.09,55.7,7.62
+100265,2022,1,1,Large,Business Services,Northern & Western,1,1,1,0,0,1,2.11,0.0,16.47,91.69,60.68,56.47,7.38
+100266,2022,1,1,Small,Retail,Northern & Western,1,1,0,1,0,1,2.26,1.0,11.24,91.29,61.54,57.15,7.22
+100267,2022,1,1,Small,Hospitality,Northern & Western,1,1,1,0,1,0,3.06,0.0,13.78,93.06,63.03,57.58,7.7
+100268,2022,1,1,Small,Production,Southern,0,1,1,1,1,0,2.31,0.0,16.98,106.58,64.38,56.69,7.24
+100269,2022,1,0,Large,Business Services,Northern & Western,0,0,0,0,0,1,3.01,0.0,13.08,85.17,58.56,53.01,6.88
+100270,2022,1,0,Medium,Retail,Northern & Western,0,0,0,0,0,0,2.64,0.0,14.75,99.06,61.58,57.84,6.56
+100271,2022,1,0,Small,Hospitality,Eastern & Midlands,0,0,0,0,0,0,2.82,0.0,19.18,101.85,56.82,52.55,7.16
+100272,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,3.18,0.0,16.3,87.83,57.7,57.05,6.75
+100273,2022,1,0,Small,Production,Eastern & Midlands,0,0,0,0,0,0,3.09,1.0,13.74,68.41,59.41,55.44,7.27
+100274,2022,1,1,Large,Production,Southern,1,1,0,0,0,1,2.66,0.0,16.17,78.95,59.95,56.08,7.32
+100275,2022,1,0,Small,Business Services,Southern,0,0,0,0,0,0,3.49,1.0,14.51,100.31,60.06,51.74,7.51
+100276,2022,1,0,Large,Other Services,Southern,0,0,0,0,0,1,2.87,0.0,14.76,92.59,57.74,55.51,7.01
+100277,2022,1,0,Medium,Retail,Southern,0,0,0,0,0,0,2.61,1.0,13.36,86.83,56.97,55.11,7.02
+100278,2022,1,0,Large,Hospitality,Northern & Western,0,0,0,0,0,1,3.05,0.0,17.45,76.05,58.34,54.32,6.93
+100279,2022,1,0,Medium,Business Services,Eastern & Midlands,0,0,0,0,0,1,3.1,0.0,14.03,87.38,58.12,53.51,6.95
+100280,2022,1,0,Large,Business Services,Southern,0,0,0,0,0,0,3.27,0.0,16.92,82.67,57.03,52.53,6.67
+100281,2022,1,0,Small,Production,Southern,0,0,0,0,0,1,3.19,1.0,13.9,81.17,56.93,56.11,7.25
+100282,2022,1,1,Small,Hospitality,Eastern & Midlands,0,1,1,1,1,0,2.56,1.0,14.41,93.01,61.92,60.45,7.38
+100283,2022,1,1,Large,Construction,Eastern & Midlands,1,0,0,0,1,0,3.04,0.0,15.52,98.55,65.12,58.25,7.14
+100284,2022,1,0,Medium,Other Services,Eastern & Midlands,0,0,0,0,0,1,2.99,0.0,16.15,97.19,56.94,56.93,6.81
+100285,2022,1,0,Medium,Other Services,Eastern & Midlands,0,0,0,0,0,0,2.75,1.0,14.53,77.98,59.19,50.65,7.19
+100286,2022,1,1,Medium,Production,Eastern & Midlands,1,1,1,0,1,0,2.72,0.0,14.57,83.28,62.39,61.17,6.9
+100287,2022,1,1,Large,Hospitality,Northern & Western,1,0,0,0,1,0,2.43,0.0,12.88,91.32,60.92,58.68,7.26
+100288,2022,1,0,Large,Business Services,Eastern & Midlands,0,0,0,0,0,0,2.79,1.0,18.24,73.15,57.7,55.38,7.22
+100289,2022,1,0,Large,Other Services,Northern & Western,0,0,0,0,0,1,2.94,1.0,15.57,78.03,59.01,58.9,7.15
+100290,2022,1,0,Large,Business Services,Eastern & Midlands,0,0,0,0,0,0,3.12,0.0,14.6,78.58,56.76,52.19,7.37
+100291,2022,1,1,Medium,Retail,Eastern & Midlands,1,0,1,1,1,0,2.48,1.0,10.25,103.06,62.96,55.69,7.0
+100292,2022,1,0,Medium,Construction,Southern,0,0,0,0,0,1,3.31,0.0,15.82,72.54,57.88,56.38,7.0
+100293,2022,1,1,Large,Production,Southern,1,0,1,1,1,0,2.78,0.0,11.3,110.25,62.24,58.77,7.44
+100294,2022,1,1,Large,Other Services,Southern,1,1,1,1,0,1,3.18,0.0,12.53,91.5,64.9,55.92,7.36
+100295,2022,1,0,Medium,Retail,Southern,0,0,0,0,0,1,3.19,0.0,16.61,73.17,56.67,54.72,7.6
+100296,2022,1,0,Medium,Retail,Southern,0,0,0,0,0,0,3.5,1.0,13.63,103.25,60.4,55.58,7.53
+100297,2022,1,0,Small,Construction,Southern,0,0,0,0,0,0,3.07,0.0,14.08,83.9,58.01,55.37,7.25
+100298,2022,1,0,Large,Production,Eastern & Midlands,0,0,0,0,0,0,2.24,0.0,13.29,67.27,59.27,55.84,7.13
+100299,2022,1,0,Small,Production,Eastern & Midlands,0,0,0,0,0,0,2.55,0.0,16.96,92.76,60.99,57.78,6.84
+100300,2022,1,1,Medium,Business Services,Southern,0,0,0,1,0,0,2.86,0.0,14.47,98.54,62.93,61.66,7.54
+100301,2022,1,1,Medium,Production,Southern,0,1,0,0,1,0,2.35,1.0,12.77,92.22,62.79,54.96,7.2
+100302,2022,1,0,Large,Retail,Southern,0,0,0,0,0,0,2.83,0.0,14.07,86.59,58.39,55.68,6.94
+100303,2022,1,1,Small,Business Services,Eastern & Midlands,0,0,1,1,1,0,2.37,0.0,14.51,104.02,68.71,57.32,7.45
+100304,2022,1,0,Medium,Production,Southern,0,0,0,0,0,0,2.99,0.0,14.72,86.43,62.74,52.18,7.31
+100305,2022,1,0,Small,Construction,Southern,0,0,0,0,0,1,2.94,0.0,15.69,107.02,62.07,57.34,7.13
+100306,2022,1,1,Small,Retail,Eastern & Midlands,1,0,0,0,1,0,2.6,1.0,12.32,102.39,64.03,55.91,7.06
+100307,2022,1,1,Small,Hospitality,Eastern & Midlands,1,0,1,1,1,0,2.66,0.0,12.88,100.96,61.94,60.54,7.54
+100308,2022,1,0,Small,Construction,Northern & Western,0,0,0,0,0,0,2.82,0.0,13.46,75.85,57.79,53.31,7.34
+100309,2022,1,0,Small,Construction,Southern,0,0,0,0,0,0,2.59,1.0,16.58,73.98,59.68,57.03,6.95
+100310,2022,1,1,Large,Production,Eastern & Midlands,0,1,1,0,0,0,2.68,1.0,11.74,106.45,63.09,55.43,7.2
+100311,2022,1,0,Large,Business Services,Northern & Western,0,0,0,0,0,0,2.8,1.0,12.44,76.6,60.03,57.57,6.7
+100312,2022,1,0,Small,Business Services,Eastern & Midlands,0,0,0,0,0,1,2.74,0.0,11.9,87.28,56.34,53.62,7.24
+100313,2022,1,0,Large,Retail,Northern & Western,0,0,0,0,0,1,2.83,0.0,14.99,89.93,59.51,55.59,6.98
+100314,2022,1,0,Medium,Production,Northern & Western,0,0,0,0,0,0,3.11,1.0,13.68,98.19,59.96,54.21,7.44
+100315,2022,1,1,Small,Business Services,Southern,1,1,1,0,1,1,3.23,0.0,13.04,100.57,65.21,58.86,7.66
+100316,2022,1,0,Large,Other Services,Southern,0,0,0,0,0,0,3.5,1.0,13.88,83.34,58.54,54.71,7.14
+100317,2022,1,0,Large,Hospitality,Northern & Western,0,0,0,0,0,0,3.11,1.0,16.19,83.09,58.65,54.65,6.79
+100318,2022,1,0,Medium,Other Services,Southern,0,0,0,0,0,0,3.22,0.0,12.86,78.61,56.89,53.24,6.93
+100319,2022,1,0,Medium,Production,Eastern & Midlands,0,0,0,0,0,0,3.06,0.0,13.89,77.18,57.42,56.81,7.13
+100320,2022,1,0,Medium,Production,Eastern & Midlands,0,0,0,0,0,0,2.82,0.0,13.8,92.63,57.44,59.94,7.03
+100321,2022,1,0,Medium,Business Services,Northern & Western,0,0,0,0,0,0,2.64,0.0,16.96,90.92,59.4,53.75,6.95
+100322,2022,1,0,Small,Construction,Northern & Western,0,0,0,0,0,0,3.47,1.0,15.63,98.26,50.07,53.98,7.01
+100323,2022,1,1,Large,Production,Eastern & Midlands,0,1,0,1,1,1,2.64,0.0,12.14,87.6,63.31,60.49,7.53
+100324,2022,1,0,Large,Construction,Eastern & Midlands,0,0,0,0,0,0,2.82,0.0,14.15,63.99,59.92,53.68,6.44
+100325,2022,1,0,Medium,Retail,Northern & Western,0,0,0,0,0,0,2.95,0.0,16.43,88.18,54.73,55.07,7.01
+100326,2022,1,1,Large,Retail,Eastern & Midlands,1,1,0,0,1,0,2.82,0.0,14.26,90.5,60.65,55.45,7.51
+100327,2022,1,0,Large,Business Services,Eastern & Midlands,0,0,0,0,0,0,2.97,1.0,17.0,93.48,59.36,51.71,7.07
+100328,2022,1,0,Large,Retail,Northern & Western,0,0,0,0,0,0,2.63,0.0,15.22,85.11,56.77,52.56,7.46
+100329,2022,1,0,Medium,Other Services,Southern,0,0,0,0,0,0,2.9,1.0,14.49,80.82,61.82,52.8,7.25
+100330,2022,1,0,Large,Other Services,Eastern & Midlands,0,0,0,0,0,0,3.26,1.0,16.58,83.45,57.72,54.6,6.84
+100331,2022,1,0,Large,Other Services,Southern,0,0,0,0,0,0,3.16,0.0,17.4,82.07,61.86,48.27,7.31
+100332,2022,1,0,Large,Business Services,Southern,0,0,0,0,0,1,3.0,0.0,19.25,83.14,56.43,52.01,6.98
+100333,2022,1,1,Small,Business Services,Eastern & Midlands,1,1,1,0,0,1,2.12,1.0,13.17,113.3,64.29,56.66,7.4
+100334,2022,1,0,Small,Other Services,Southern,0,0,0,0,0,0,2.66,0.0,13.52,79.99,59.69,55.92,6.94
+100335,2022,1,1,Large,Construction,Northern & Western,0,1,0,1,0,0,2.47,0.0,12.94,88.16,64.7,55.37,7.37
+100336,2022,1,0,Large,Other Services,Eastern & Midlands,0,0,0,0,0,0,2.53,0.0,13.39,78.02,54.21,51.6,7.09
+100337,2022,1,0,Large,Construction,Eastern & Midlands,0,0,0,0,0,0,2.99,1.0,18.81,72.43,56.73,53.77,7.14
+100338,2022,1,0,Large,Retail,Southern,0,0,0,0,0,1,2.95,0.0,15.72,77.49,63.28,57.11,6.99
+100339,2022,1,0,Large,Construction,Eastern & Midlands,0,0,0,0,0,0,3.27,0.0,20.34,98.19,59.64,56.63,6.97
+100340,2022,1,0,Large,Production,Eastern & Midlands,0,0,0,0,0,0,3.0,0.0,17.61,88.02,58.22,55.36,6.68
+100341,2022,1,0,Small,Hospitality,Southern,0,0,0,0,0,0,3.3,0.0,13.36,63.63,55.21,56.33,6.82
+100342,2022,1,0,Medium,Production,Southern,0,0,0,0,0,1,2.6,0.0,14.33,87.94,58.76,55.74,7.28
+100343,2022,1,0,Large,Production,Eastern & Midlands,0,0,0,0,0,0,3.58,1.0,16.15,98.58,59.23,56.5,6.89
+100344,2022,1,1,Large,Business Services,Eastern & Midlands,0,1,1,0,1,1,2.63,0.0,13.0,77.69,63.72,58.23,7.54
+100345,2022,1,0,Large,Hospitality,Northern & Western,0,0,0,0,0,0,3.36,0.0,14.38,91.05,58.92,53.77,7.47
+100346,2022,1,0,Medium,Business Services,Northern & Western,0,0,0,0,0,0,3.04,0.0,19.77,75.61,63.81,53.32,7.13
+100347,2022,1,1,Large,Construction,Eastern & Midlands,1,0,1,1,0,1,2.1,0.0,12.54,91.66,59.85,54.92,7.21
+100348,2022,1,1,Large,Other Services,Eastern & Midlands,1,0,1,1,0,1,2.46,1.0,12.76,73.96,63.21,56.44,7.0
+100349,2022,1,0,Medium,Construction,Northern & Western,0,0,0,0,0,0,3.1,1.0,15.54,89.03,61.32,56.51,7.05
+100350,2022,1,1,Large,Hospitality,Southern,1,1,1,0,1,0,2.82,0.0,13.95,71.95,64.42,60.66,7.42
+100351,2022,1,0,Medium,Retail,Eastern & Midlands,0,0,0,0,0,0,3.22,0.0,19.57,84.57,59.95,56.63,6.84
+100352,2022,1,0,Medium,Construction,Northern & Western,0,0,0,0,0,1,2.59,1.0,15.25,65.17,61.73,56.33,7.13
+100353,2022,1,0,Large,Production,Northern & Western,0,0,0,0,0,0,3.63,0.0,18.48,79.89,61.01,59.17,7.03
+100354,2022,1,1,Small,Hospitality,Eastern & Midlands,0,0,1,1,1,0,2.56,0.0,11.04,89.65,67.04,61.72,6.85
+100355,2022,1,0,Small,Hospitality,Eastern & Midlands,0,0,0,0,0,0,3.38,0.0,14.31,97.82,63.42,53.03,7.14
+100356,2022,1,1,Large,Construction,Northern & Western,1,1,1,1,0,1,2.3,0.0,14.5,79.58,62.73,59.43,7.44
+100357,2022,1,0,Medium,Construction,Eastern & Midlands,0,0,0,0,0,0,2.83,0.0,18.73,63.27,60.45,57.62,7.28
+100358,2022,1,0,Medium,Business Services,Southern,0,0,0,0,0,1,3.23,0.0,17.12,70.07,58.66,57.63,7.09
+100359,2022,1,0,Medium,Business Services,Eastern & Midlands,0,0,0,0,0,0,3.07,0.0,16.22,72.81,60.87,52.67,7.4
+100360,2022,1,0,Large,Production,Northern & Western,0,0,0,0,0,1,3.02,1.0,15.82,90.02,59.95,57.32,7.45
+100361,2022,1,1,Small,Hospitality,Northern & Western,0,0,1,0,1,1,2.85,0.0,11.16,96.67,63.25,58.17,6.91
+100362,2022,1,0,Medium,Retail,Eastern & Midlands,0,0,0,0,0,0,2.91,0.0,16.76,84.44,58.69,54.3,7.22
+100363,2022,1,0,Medium,Retail,Northern & Western,0,0,0,0,0,1,2.97,0.0,16.23,81.64,61.3,49.96,7.26
+100364,2022,1,1,Large,Hospitality,Southern,0,1,0,1,1,0,1.92,0.0,10.97,73.94,61.97,59.2,7.09
+100365,2022,1,0,Small,Production,Eastern & Midlands,0,0,0,0,0,1,2.69,1.0,18.79,93.54,53.37,54.84,6.91
+100366,2022,1,1,Small,Business Services,Eastern & Midlands,1,1,1,1,1,1,2.63,0.0,16.33,89.19,61.63,60.75,7.26
+100367,2022,1,0,Large,Business Services,Northern & Western,0,0,0,0,0,0,3.22,0.0,16.85,80.15,57.33,56.63,7.23
+100368,2022,1,1,Small,Business Services,Southern,1,1,1,1,0,0,2.41,0.0,9.85,94.98,64.99,55.66,7.33
+100369,2022,1,0,Large,Retail,Eastern & Midlands,0,0,0,0,0,1,2.99,0.0,12.19,81.28,59.28,55.2,7.47
+100370,2022,1,1,Medium,Retail,Northern & Western,0,0,1,1,0,0,2.13,1.0,11.53,85.8,61.75,58.39,7.24
+100371,2022,1,0,Large,Production,Eastern & Midlands,0,0,0,0,0,0,2.8,0.0,19.89,92.21,60.92,54.87,6.97
+100372,2022,1,1,Medium,Retail,Southern,1,1,0,1,1,0,2.8,0.0,12.19,78.81,62.45,56.92,7.19
+100373,2022,1,1,Large,Construction,Northern & Western,1,0,1,0,1,0,3.03,0.0,14.55,63.85,61.41,57.76,7.38
+100374,2022,1,0,Medium,Retail,Eastern & Midlands,0,0,0,0,0,0,3.0,0.0,15.78,109.76,58.66,54.71,7.27
+100375,2022,1,1,Medium,Business Services,Northern & Western,1,0,0,1,0,0,2.91,0.0,13.41,87.5,62.79,59.02,7.52
+100376,2022,1,0,Large,Production,Northern & Western,0,0,0,0,0,1,3.12,0.0,16.43,108.24,59.81,54.32,7.07
+100377,2022,1,0,Medium,Hospitality,Southern,0,0,0,0,0,0,3.01,0.0,12.1,97.54,58.3,53.91,6.91
+100378,2022,1,0,Small,Hospitality,Southern,0,0,0,0,0,1,3.27,0.0,13.32,90.04,57.31,57.46,6.79
+100379,2022,1,1,Large,Production,Eastern & Midlands,0,1,0,1,1,1,1.92,1.0,13.31,85.28,66.13,58.47,6.94
+100380,2022,1,1,Small,Construction,Northern & Western,0,1,1,0,0,0,2.34,0.0,12.5,86.78,58.92,55.69,7.04
+100381,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,3.08,0.0,18.14,89.91,61.04,51.02,7.04
+100382,2022,1,1,Medium,Business Services,Northern & Western,0,1,1,0,1,0,3.03,0.0,15.02,80.75,65.79,54.62,6.73
+100383,2022,1,1,Medium,Hospitality,Eastern & Midlands,0,1,1,0,0,1,2.64,0.0,15.47,104.92,64.04,62.93,7.44
+100384,2022,1,0,Large,Hospitality,Southern,0,0,0,0,0,0,3.11,1.0,17.3,100.88,60.18,52.93,7.05
+100385,2022,1,0,Medium,Business Services,Southern,0,0,0,0,0,1,2.71,1.0,16.66,97.74,59.7,54.45,7.13
+100386,2022,1,0,Small,Retail,Northern & Western,0,0,0,0,0,1,2.62,1.0,18.77,89.14,55.58,56.91,6.88
+100387,2022,1,1,Small,Construction,Eastern & Midlands,1,1,0,1,0,0,2.75,0.0,13.2,109.98,62.38,60.06,7.15
+100388,2022,1,0,Large,Business Services,Northern & Western,0,0,0,0,0,0,2.78,1.0,16.29,96.91,55.05,54.47,7.74
+100389,2022,1,0,Small,Business Services,Southern,0,0,0,0,0,1,2.81,0.0,14.73,92.84,58.11,53.42,7.22
+100390,2022,1,1,Large,Other Services,Northern & Western,1,1,1,1,1,0,2.07,1.0,15.22,95.08,63.8,55.85,7.22
+100391,2022,1,0,Large,Production,Northern & Western,0,0,0,0,0,0,2.79,0.0,18.65,71.25,56.53,51.61,6.93
+100392,2022,1,1,Medium,Construction,Northern & Western,0,1,1,1,1,1,2.87,0.0,12.69,78.05,61.78,59.61,7.23
+100393,2022,1,0,Small,Retail,Southern,0,0,0,0,0,1,2.43,1.0,16.82,72.89,54.84,55.56,6.76
+100394,2022,1,0,Small,Other Services,Eastern & Midlands,0,0,0,0,0,1,3.0,0.0,15.51,75.39,57.71,56.05,7.42
+100395,2022,1,1,Small,Business Services,Northern & Western,1,0,1,0,1,0,2.54,1.0,12.3,102.01,65.15,57.52,7.12
+100396,2022,1,0,Medium,Other Services,Southern,0,0,0,0,0,0,3.39,0.0,15.23,76.03,57.66,56.94,7.16
+100397,2022,1,0,Large,Retail,Northern & Western,0,0,0,0,0,0,2.96,0.0,18.07,82.57,59.34,56.5,7.03
+100398,2022,1,0,Small,Other Services,Eastern & Midlands,0,0,0,0,0,1,3.18,0.0,14.41,93.54,56.35,57.58,7.24
+100399,2022,1,1,Small,Other Services,Northern & Western,0,0,0,0,0,0,2.6,0.0,15.15,85.72,62.53,53.94,7.33
+100400,2022,1,0,Small,Other Services,Eastern & Midlands,0,0,0,0,0,0,3.3,0.0,15.02,87.21,59.4,53.63,6.95
+100401,2022,1,1,Small,Business Services,Southern,0,1,1,1,1,0,2.22,0.0,15.34,98.71,64.89,58.95,7.21
+100402,2022,1,1,Medium,Business Services,Eastern & Midlands,0,1,0,0,0,0,2.7,0.0,12.16,80.3,66.33,58.2,7.38
+100403,2022,1,0,Large,Production,Eastern & Midlands,0,0,0,0,0,0,3.23,0.0,19.42,95.07,59.82,58.16,7.02
+100404,2022,1,1,Small,Hospitality,Southern,1,0,1,0,1,0,3.01,0.0,10.58,82.59,62.61,57.41,7.43
+100405,2022,1,0,Small,Construction,Eastern & Midlands,0,0,0,0,0,1,2.75,0.0,18.88,77.5,60.78,52.47,7.41
+100406,2022,1,0,Large,Production,Eastern & Midlands,0,0,0,0,0,0,3.22,0.0,18.96,88.12,58.95,52.44,6.93
+100407,2022,1,0,Medium,Retail,Southern,0,0,0,0,0,0,2.68,1.0,15.74,93.02,58.5,52.79,7.3
+100408,2022,1,0,Medium,Other Services,Eastern & Midlands,0,0,0,0,0,1,2.75,1.0,15.58,96.57,59.35,54.77,7.37
+100409,2022,1,1,Medium,Business Services,Eastern & Midlands,1,1,1,1,1,0,3.12,0.0,9.78,79.16,63.38,59.51,7.39
+100410,2022,1,0,Medium,Other Services,Northern & Western,0,0,0,0,0,1,2.73,1.0,15.22,83.21,58.17,55.6,7.0
+100411,2022,1,1,Small,Business Services,Eastern & Midlands,1,0,1,0,1,0,3.13,0.0,12.29,83.45,64.37,56.88,7.36
+100412,2022,1,0,Large,Construction,Eastern & Midlands,0,0,0,0,0,0,3.04,0.0,16.54,85.0,61.7,54.67,7.03
+100413,2022,1,1,Large,Production,Eastern & Midlands,1,0,1,0,0,0,2.63,1.0,13.09,98.53,62.62,55.93,7.19
+100414,2022,1,1,Large,Production,Southern,0,0,0,1,0,0,2.84,0.0,12.78,84.5,65.59,58.14,7.33
+100415,2022,1,1,Medium,Retail,Eastern & Midlands,1,1,0,0,0,0,2.5,0.0,8.88,95.07,62.04,59.56,7.38
+100416,2022,1,1,Medium,Production,Southern,1,0,1,1,1,1,2.24,1.0,13.04,84.13,61.06,56.8,7.63
+100417,2022,1,1,Large,Production,Southern,1,0,1,0,1,1,2.98,0.0,11.62,97.47,64.76,57.56,7.25
+100418,2022,1,0,Small,Hospitality,Eastern & Midlands,0,0,0,0,0,0,2.76,0.0,16.44,69.68,59.72,53.49,7.02
+100419,2022,1,1,Medium,Construction,Eastern & Midlands,0,0,1,0,1,0,2.16,0.0,9.44,109.61,66.36,58.91,7.51
+100420,2022,1,0,Small,Other Services,Eastern & Midlands,0,0,0,0,0,0,3.09,0.0,15.73,79.65,59.19,57.13,7.33
+100421,2022,1,0,Large,Production,Eastern & Midlands,0,0,0,0,0,0,3.18,0.0,17.3,94.81,58.01,52.75,7.25
+100422,2022,1,0,Medium,Retail,Eastern & Midlands,0,0,0,0,0,0,3.03,0.0,15.85,88.93,58.9,54.82,6.93
+100423,2022,1,1,Small,Other Services,Eastern & Midlands,1,1,0,1,0,0,2.29,0.0,13.08,79.48,65.04,59.69,7.61
+100424,2022,1,0,Medium,Business Services,Eastern & Midlands,0,0,0,0,0,1,3.31,1.0,17.94,82.84,59.8,52.93,7.62
+100425,2022,1,1,Large,Production,Southern,0,1,1,0,1,0,2.2,1.0,13.3,88.85,65.66,58.8,7.39
+100426,2022,1,0,Large,Production,Northern & Western,0,0,0,0,0,0,3.3,1.0,15.64,85.13,57.38,53.86,7.3
+100427,2022,1,0,Large,Other Services,Southern,0,0,0,0,0,0,2.68,0.0,18.64,81.93,61.04,57.28,6.84
+100428,2022,1,0,Small,Business Services,Eastern & Midlands,0,0,0,0,0,0,2.51,0.0,15.87,85.27,56.67,56.85,6.92
+100429,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,3.02,0.0,14.83,79.21,55.53,51.22,6.99
+100430,2022,1,0,Medium,Construction,Northern & Western,0,0,0,0,0,0,2.74,0.0,14.95,78.02,57.41,54.99,6.97
+100431,2022,1,0,Medium,Hospitality,Eastern & Midlands,0,0,0,0,0,0,2.58,1.0,17.42,69.13,60.2,55.9,6.99
+100432,2022,1,0,Large,Retail,Eastern & Midlands,0,0,0,0,0,0,3.16,1.0,19.86,103.65,61.11,51.4,7.53
+100433,2022,1,0,Small,Other Services,Southern,0,0,0,0,0,0,2.95,0.0,15.33,65.36,58.08,55.55,6.81
+100434,2022,1,0,Large,Production,Northern & Western,0,0,0,0,0,0,3.12,0.0,16.54,101.69,55.3,53.9,7.2
+100435,2022,1,0,Large,Hospitality,Northern & Western,0,0,0,0,0,1,2.8,0.0,13.99,78.59,55.09,55.4,7.08
+100436,2022,1,1,Small,Construction,Eastern & Midlands,0,1,1,1,1,1,2.31,0.0,11.04,101.73,63.62,54.96,7.23
+100437,2022,1,1,Large,Retail,Eastern & Midlands,1,1,0,1,0,0,2.6,0.0,11.13,100.23,62.12,57.08,7.25
+100438,2022,1,1,Large,Hospitality,Northern & Western,1,0,1,0,1,1,2.78,0.0,14.09,72.66,61.83,61.47,7.24
+100439,2022,1,0,Medium,Production,Northern & Western,0,0,0,0,0,0,2.58,1.0,17.54,72.81,60.26,52.89,7.13
+100440,2022,1,1,Small,Construction,Eastern & Midlands,1,0,1,1,1,0,2.92,0.0,11.07,81.98,63.24,56.6,7.35
+100441,2022,1,0,Small,Production,Eastern & Midlands,0,0,0,0,0,1,3.19,0.0,13.31,69.03,59.45,53.24,7.48
+100442,2022,1,0,Medium,Production,Eastern & Midlands,0,0,0,0,0,0,3.33,0.0,17.97,85.38,60.59,52.71,6.99
+100443,2022,1,0,Small,Retail,Southern,0,0,0,0,0,0,3.3,0.0,14.86,76.95,57.42,55.34,7.39
+100444,2022,1,1,Medium,Construction,Southern,1,0,1,0,0,0,2.19,0.0,13.7,88.01,65.29,59.3,7.25
+100445,2022,1,0,Large,Business Services,Eastern & Midlands,0,0,0,0,0,1,3.63,0.0,17.2,72.09,56.06,54.79,7.14
+100446,2022,1,0,Small,Production,Southern,0,0,0,0,0,0,3.81,0.0,14.66,93.46,57.75,54.49,7.12
+100447,2022,1,1,Small,Construction,Northern & Western,1,1,1,0,1,0,2.19,0.0,9.45,85.09,64.41,58.78,7.5
+100448,2022,1,0,Large,Production,Northern & Western,0,0,0,0,0,1,2.96,0.0,15.85,85.39,61.77,55.89,7.11
+100449,2022,1,0,Large,Hospitality,Eastern & Midlands,0,0,0,0,0,1,3.38,1.0,17.15,104.99,54.57,52.3,6.86
+100450,2022,1,0,Small,Hospitality,Northern & Western,0,0,0,0,0,1,3.16,1.0,14.73,84.38,63.43,55.34,7.3
+100451,2022,1,1,Small,Construction,Northern & Western,1,1,1,1,1,0,2.85,0.0,15.52,90.53,62.56,59.56,7.15
+100452,2022,1,0,Small,Retail,Northern & Western,0,0,0,0,0,0,3.13,0.0,19.49,82.47,59.61,54.84,6.99
+100453,2022,1,0,Medium,Business Services,Northern & Western,0,0,0,0,0,0,3.13,0.0,16.36,73.77,61.27,54.92,6.9
+100454,2022,1,0,Small,Hospitality,Northern & Western,0,0,0,0,0,0,2.86,0.0,17.66,90.06,60.55,54.94,7.5
+100455,2022,1,0,Small,Retail,Southern,0,0,0,0,0,0,2.98,0.0,13.29,104.21,57.45,54.22,7.02
+100456,2022,1,0,Large,Business Services,Southern,0,0,0,0,0,0,2.89,0.0,14.09,86.61,59.09,56.08,7.1
+100457,2022,1,0,Large,Hospitality,Eastern & Midlands,0,0,0,0,0,0,3.11,0.0,17.5,85.96,59.96,54.21,6.96
+100458,2022,1,1,Medium,Business Services,Northern & Western,1,1,0,1,1,0,2.74,0.0,12.33,96.97,62.87,55.05,7.51
+100459,2022,1,1,Large,Other Services,Southern,0,0,1,0,1,0,2.26,0.0,9.59,100.75,63.67,57.21,7.34
+100460,2022,1,0,Small,Production,Southern,0,0,0,0,0,0,2.5,1.0,14.77,90.54,60.17,58.83,6.88
+100461,2022,1,0,Small,Construction,Southern,0,0,0,0,0,0,2.83,0.0,15.31,97.48,59.22,54.05,6.9
+100462,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,1,2.51,0.0,15.24,72.2,60.14,54.12,6.93
+100463,2022,1,0,Large,Hospitality,Southern,0,0,0,0,0,0,2.98,1.0,16.77,92.44,58.84,56.33,6.85
+100464,2022,1,0,Large,Production,Eastern & Midlands,0,0,0,0,0,1,3.51,1.0,17.07,83.19,60.06,54.7,7.29
+100465,2022,1,0,Large,Hospitality,Eastern & Midlands,0,0,0,0,0,1,2.61,1.0,16.87,75.86,57.34,55.66,6.83
+100466,2022,1,1,Medium,Hospitality,Northern & Western,1,1,1,0,0,0,2.71,0.0,10.38,83.07,60.48,55.5,7.53
+100467,2022,1,1,Large,Other Services,Eastern & Midlands,1,1,0,1,1,0,2.64,0.0,9.41,98.57,61.55,58.85,7.26
+100468,2022,1,1,Large,Hospitality,Southern,0,0,0,1,0,0,2.22,0.0,14.62,106.13,62.93,60.86,7.32
+100469,2022,1,0,Large,Hospitality,Northern & Western,0,0,0,0,0,1,3.01,1.0,17.37,76.15,60.22,53.99,7.16
+100470,2022,1,1,Small,Hospitality,Eastern & Midlands,0,0,0,1,0,1,2.62,0.0,14.9,90.02,65.31,57.88,7.38
+100471,2022,1,0,Medium,Retail,Northern & Western,0,0,0,0,0,0,2.82,0.0,14.56,96.04,55.6,54.52,7.14
+100472,2022,1,0,Small,Hospitality,Southern,0,0,0,0,0,0,2.81,0.0,16.08,73.07,57.55,52.64,6.93
+100473,2022,1,0,Medium,Production,Eastern & Midlands,0,0,0,0,0,1,3.26,0.0,14.33,87.85,61.69,54.51,7.17
+100474,2022,1,1,Large,Other Services,Southern,1,1,1,1,0,0,2.22,0.0,16.11,98.18,62.93,60.92,7.49
+100475,2022,1,1,Small,Hospitality,Eastern & Midlands,1,1,1,0,0,0,2.36,0.0,12.71,88.66,67.33,57.02,7.3
+100476,2022,1,0,Large,Business Services,Northern & Western,0,0,0,0,0,0,2.82,0.0,15.88,82.0,57.82,54.95,7.29
+100477,2022,1,0,Large,Other Services,Eastern & Midlands,0,0,0,0,0,1,2.99,0.0,14.58,89.46,57.99,52.78,7.3
+100478,2022,1,0,Medium,Other Services,Eastern & Midlands,0,0,0,0,0,0,2.9,1.0,20.81,65.71,61.78,51.35,7.21
+100479,2022,1,0,Large,Business Services,Eastern & Midlands,0,0,0,0,0,0,2.86,0.0,17.65,85.37,58.95,57.97,6.87
+100480,2022,1,0,Small,Production,Northern & Western,0,0,0,0,0,0,3.04,0.0,12.68,88.49,60.2,56.06,6.86
+100481,2022,1,0,Medium,Retail,Eastern & Midlands,0,0,0,0,0,0,3.26,0.0,11.36,79.53,59.84,56.17,6.97
+100482,2022,1,0,Medium,Production,Southern,0,0,0,0,0,1,3.35,0.0,15.97,71.14,59.13,54.91,7.08
+100483,2022,1,0,Small,Retail,Northern & Western,0,0,0,0,0,0,3.42,1.0,17.13,97.49,61.06,56.94,6.83
+100484,2022,1,0,Large,Construction,Northern & Western,0,0,0,0,0,0,2.86,0.0,19.47,80.63,59.77,54.54,7.25
+100485,2022,1,0,Large,Business Services,Southern,0,0,0,0,0,0,3.09,1.0,15.2,92.53,58.87,52.26,7.57
+100486,2022,1,0,Large,Other Services,Northern & Western,0,0,0,0,0,0,3.04,0.0,19.82,93.54,57.41,55.3,6.97
+100487,2022,1,0,Large,Other Services,Eastern & Midlands,0,0,0,0,0,1,3.5,0.0,15.01,73.02,59.16,55.53,6.8
+100488,2022,1,0,Large,Other Services,Northern & Western,0,0,0,0,0,0,2.53,0.0,15.8,88.07,58.77,53.34,7.24
+100489,2022,1,0,Medium,Business Services,Southern,0,0,0,0,0,0,2.76,0.0,14.01,77.79,57.16,56.71,7.21
+100490,2022,1,0,Medium,Business Services,Northern & Western,0,0,0,0,0,0,2.91,1.0,19.28,80.99,56.45,55.01,7.12
+100491,2022,1,1,Small,Retail,Southern,1,1,1,1,1,0,2.05,0.0,13.28,99.52,62.73,55.02,7.36
+100492,2022,1,1,Large,Other Services,Northern & Western,1,1,1,1,0,0,2.55,1.0,15.36,81.38,62.72,56.93,7.04
+100493,2022,1,1,Large,Production,Southern,1,1,1,0,1,1,2.56,0.0,16.53,89.13,62.05,58.96,7.26
+100494,2022,1,0,Large,Retail,Northern & Western,0,0,0,0,0,0,3.55,0.0,16.73,92.51,58.63,56.93,6.94
+100495,2022,1,1,Small,Other Services,Eastern & Midlands,1,0,1,1,0,0,2.58,0.0,14.02,76.26,60.06,57.03,7.84
+100496,2022,1,1,Large,Business Services,Southern,1,1,1,1,1,1,2.37,0.0,12.57,100.47,65.84,59.96,7.19
+100497,2022,1,1,Medium,Business Services,Southern,0,1,0,0,1,0,2.38,0.0,11.04,96.86,59.93,57.0,7.3
+100498,2022,1,1,Large,Business Services,Northern & Western,1,1,0,0,0,0,1.98,0.0,14.63,101.78,64.05,58.21,7.26
+100499,2022,1,1,Small,Other Services,Northern & Western,1,1,0,1,1,1,2.11,0.0,14.18,80.89,58.69,57.84,7.15
+100500,2022,1,0,Medium,Business Services,Northern & Western,0,0,0,0,0,1,2.86,0.0,13.78,92.91,57.74,54.32,7.03
+100501,2022,1,1,Medium,Construction,Eastern & Midlands,1,0,1,1,1,1,2.59,0.0,12.93,91.23,62.16,59.16,7.49
+100502,2022,1,1,Medium,Business Services,Northern & Western,1,1,0,1,1,1,2.68,0.0,14.6,103.01,65.88,51.74,7.34
+100503,2022,1,1,Large,Other Services,Southern,1,1,1,1,0,0,2.74,0.0,12.75,91.2,59.59,57.28,7.32
+100504,2022,1,0,Small,Retail,Northern & Western,0,0,0,0,0,1,3.15,0.0,16.72,89.09,57.12,55.91,7.12
+100505,2022,1,0,Small,Business Services,Eastern & Midlands,0,0,0,0,0,0,2.7,0.0,15.41,92.17,56.35,53.85,7.38
+100506,2022,1,0,Large,Hospitality,Northern & Western,0,0,0,0,0,0,3.53,0.0,13.1,82.86,60.06,57.16,7.08
+100507,2022,1,0,Small,Construction,Northern & Western,0,0,0,0,0,0,2.89,0.0,14.64,66.06,58.17,55.44,6.92
+100508,2022,1,0,Medium,Other Services,Southern,0,0,0,0,0,0,3.23,0.0,19.6,57.96,58.42,53.92,7.02
+100509,2022,1,0,Medium,Business Services,Northern & Western,0,0,0,0,0,0,2.72,0.0,15.54,73.45,58.74,55.52,6.9
+100510,2022,1,0,Small,Hospitality,Eastern & Midlands,0,0,0,0,0,0,2.94,0.0,19.13,95.76,59.34,55.49,7.16
+100511,2022,1,0,Small,Other Services,Northern & Western,0,0,0,0,0,0,3.21,0.0,16.04,107.37,62.51,52.13,7.18
+100512,2022,1,1,Large,Retail,Northern & Western,0,1,0,1,0,0,2.22,0.0,8.72,90.71,64.36,56.82,7.64
+100513,2022,1,1,Large,Construction,Southern,0,1,0,1,0,0,2.56,0.0,10.18,100.5,65.89,57.15,7.21
+100514,2022,1,0,Large,Business Services,Northern & Western,0,0,0,0,0,1,2.86,0.0,13.39,78.01,57.07,50.51,6.81
+100515,2022,1,1,Large,Retail,Southern,1,1,0,0,0,0,2.47,0.0,9.82,81.73,59.85,56.52,7.15
+100516,2022,1,0,Large,Other Services,Southern,0,0,0,0,0,0,2.97,0.0,16.11,59.9,59.15,52.59,7.34
+100517,2022,1,0,Large,Hospitality,Northern & Western,0,0,0,0,0,1,3.2,1.0,13.23,85.19,57.71,52.56,7.14
+100518,2022,1,1,Medium,Other Services,Southern,1,0,0,0,1,0,2.58,1.0,13.69,92.48,66.09,57.13,7.32
+100519,2022,1,0,Small,Other Services,Southern,0,0,0,0,0,0,3.21,0.0,14.34,87.14,59.33,52.59,7.43
+100520,2022,1,0,Large,Construction,Northern & Western,0,0,0,0,0,0,3.06,0.0,15.81,71.74,62.53,52.26,7.28
+100521,2022,1,0,Medium,Business Services,Northern & Western,0,0,0,0,0,1,3.15,0.0,13.71,84.65,58.69,53.64,7.25
+100522,2022,1,0,Small,Retail,Eastern & Midlands,0,0,0,0,0,1,3.31,0.0,14.4,66.17,57.35,57.0,7.19
+100523,2022,1,0,Small,Construction,Eastern & Midlands,0,0,0,0,0,0,3.45,0.0,15.4,82.97,58.66,55.35,6.98
+100524,2022,1,1,Small,Hospitality,Southern,1,1,0,0,0,0,2.45,0.0,13.01,97.08,63.37,58.87,6.66
+100525,2022,1,0,Large,Business Services,Southern,0,0,0,0,0,0,3.57,1.0,15.65,77.78,59.55,55.59,7.4
+100526,2022,1,1,Large,Construction,Northern & Western,1,1,1,0,1,0,2.46,0.0,11.56,87.14,61.52,57.92,7.14
+100527,2022,1,1,Large,Hospitality,Eastern & Midlands,1,0,0,1,1,0,1.78,0.0,14.22,91.05,65.05,56.38,7.36
+100528,2022,1,0,Small,Hospitality,Eastern & Midlands,0,0,0,0,0,0,3.15,0.0,17.04,77.66,56.22,58.43,7.0
+100529,2022,1,0,Small,Retail,Northern & Western,0,0,0,0,0,0,2.76,0.0,17.58,86.37,58.58,57.83,7.17
+100530,2022,1,0,Medium,Other Services,Northern & Western,0,0,0,0,0,1,2.93,1.0,16.09,103.01,55.19,55.62,7.16
+100531,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,2.91,1.0,14.44,85.85,62.73,54.79,7.08
+100532,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,3.1,1.0,11.99,76.77,61.4,55.82,7.46
+100533,2022,1,0,Medium,Other Services,Eastern & Midlands,0,0,0,0,0,0,2.99,0.0,13.63,67.11,54.31,55.62,6.82
+100534,2022,1,0,Small,Production,Northern & Western,0,0,0,0,0,0,2.84,0.0,15.17,96.08,62.88,56.06,6.87
+100535,2022,1,1,Large,Hospitality,Northern & Western,1,0,0,1,0,0,2.5,0.0,14.36,113.19,63.37,58.7,7.44
+100536,2022,1,1,Large,Business Services,Eastern & Midlands,1,0,0,1,1,0,2.24,0.0,17.24,88.86,67.84,57.94,7.08
+100537,2022,1,1,Large,Construction,Northern & Western,1,0,1,0,1,1,2.41,1.0,13.01,85.35,62.35,59.66,7.28
+100538,2022,1,1,Large,Other Services,Eastern & Midlands,1,0,0,1,1,0,2.3,0.0,14.11,101.52,66.6,53.04,7.28
+100539,2022,1,0,Medium,Other Services,Eastern & Midlands,0,0,0,0,0,0,3.11,0.0,15.8,78.03,54.25,53.39,7.08
+100540,2022,1,1,Small,Other Services,Northern & Western,1,1,0,0,0,1,2.13,0.0,11.55,90.86,62.61,58.89,7.37
+100541,2022,1,0,Large,Business Services,Northern & Western,0,0,0,0,0,0,2.76,0.0,15.87,103.69,57.73,55.67,6.8
+100542,2022,1,0,Small,Other Services,Southern,0,0,0,0,0,1,3.29,0.0,14.3,76.4,60.83,52.47,7.02
+100543,2022,1,1,Medium,Business Services,Southern,1,1,1,1,1,0,2.01,0.0,11.32,99.98,63.16,55.58,7.32
+100544,2022,1,1,Medium,Retail,Eastern & Midlands,1,0,0,0,0,0,2.96,0.0,13.39,100.49,64.17,57.62,7.01
+100545,2022,1,1,Large,Production,Eastern & Midlands,0,1,1,1,1,0,2.21,0.0,18.21,98.44,64.77,56.6,7.1
+100546,2022,1,0,Large,Other Services,Southern,0,0,0,0,0,0,3.01,0.0,16.7,79.82,57.16,54.17,7.27
+100547,2022,1,1,Medium,Production,Eastern & Midlands,1,1,1,1,1,1,2.42,0.0,10.17,109.5,63.34,59.06,7.74
+100548,2022,1,1,Medium,Other Services,Southern,0,1,1,1,0,0,2.95,0.0,12.31,85.98,62.16,58.77,7.32
+100549,2022,1,0,Small,Business Services,Northern & Western,0,0,0,0,0,1,3.13,0.0,14.81,75.25,58.89,54.62,6.74
+100550,2022,1,1,Medium,Construction,Northern & Western,1,1,0,0,0,1,2.7,0.0,16.33,83.45,63.71,58.41,7.09
+100551,2022,1,0,Small,Production,Northern & Western,0,0,0,0,0,1,3.27,0.0,14.4,106.88,58.45,54.3,7.12
+100552,2022,1,1,Medium,Production,Eastern & Midlands,1,0,1,1,1,0,2.64,1.0,13.4,95.49,63.71,57.71,7.24
+100553,2022,1,0,Small,Business Services,Northern & Western,0,0,0,0,0,1,2.66,0.0,14.62,89.61,59.47,53.19,6.79
+100554,2022,1,0,Medium,Production,Eastern & Midlands,0,0,0,0,0,1,3.3,0.0,18.16,77.39,57.35,53.55,6.88
+100555,2022,1,0,Medium,Retail,Northern & Western,0,0,0,0,0,0,2.76,0.0,14.72,80.97,55.84,52.45,6.9
+100556,2022,1,0,Small,Business Services,Eastern & Midlands,0,0,0,0,0,0,2.64,1.0,16.76,75.66,59.71,53.83,6.9
+100557,2022,1,0,Small,Production,Eastern & Midlands,0,0,0,0,0,0,2.85,0.0,19.08,77.56,58.9,57.25,7.22
+100558,2022,1,1,Large,Production,Southern,0,1,0,1,1,0,3.04,0.0,13.01,79.97,63.71,59.26,7.53
+100559,2022,1,1,Large,Production,Southern,1,0,1,0,1,0,2.53,0.0,11.68,95.9,61.42,57.21,7.23
+100560,2022,1,0,Medium,Business Services,Southern,0,0,0,0,0,1,2.69,1.0,15.83,77.93,62.14,57.98,6.79
+100561,2022,1,0,Medium,Construction,Eastern & Midlands,0,0,0,0,0,1,2.52,0.0,16.94,92.52,61.35,52.18,7.39
+100562,2022,1,1,Small,Hospitality,Southern,0,1,1,0,1,0,2.68,0.0,11.84,81.45,62.92,57.24,7.17
+100563,2022,1,0,Medium,Other Services,Southern,0,0,0,0,0,1,2.64,0.0,15.44,85.95,54.86,55.75,7.26
+100564,2022,1,0,Large,Production,Southern,0,0,0,0,0,0,3.37,0.0,16.86,65.9,58.77,51.09,7.27
+100565,2022,1,0,Small,Hospitality,Eastern & Midlands,0,0,0,0,0,0,3.06,0.0,17.3,82.67,60.09,54.57,7.19
+100566,2022,1,0,Medium,Hospitality,Eastern & Midlands,0,0,0,0,0,0,2.57,0.0,17.71,71.36,57.54,53.12,7.35
+100567,2022,1,0,Small,Production,Southern,0,0,0,0,0,1,3.1,0.0,13.22,79.86,58.33,55.08,7.17
+100568,2022,1,1,Large,Production,Southern,1,1,1,0,0,0,2.96,0.0,13.61,96.92,59.16,57.52,7.72
+100569,2022,1,0,Large,Other Services,Eastern & Midlands,0,0,0,0,0,1,2.61,0.0,15.3,73.63,56.67,53.86,7.19
+100570,2022,1,0,Large,Hospitality,Eastern & Midlands,0,0,0,0,0,1,3.07,1.0,16.25,82.89,57.85,53.73,7.2
+100571,2022,1,0,Medium,Construction,Southern,0,0,0,0,0,1,3.3,1.0,19.17,72.53,62.83,54.89,6.87
+100572,2022,1,0,Medium,Hospitality,Southern,0,0,0,0,0,0,2.74,0.0,18.59,81.71,55.07,52.37,7.02
+100573,2022,1,0,Medium,Construction,Southern,0,0,0,0,0,1,2.82,0.0,15.29,97.78,59.17,51.72,7.17
+100574,2022,1,0,Medium,Retail,Eastern & Midlands,0,0,0,0,0,0,3.38,0.0,16.33,92.75,58.9,54.72,7.25
+100575,2022,1,1,Medium,Construction,Southern,0,0,1,0,0,0,2.13,0.0,12.93,101.17,62.44,58.44,7.15
+100576,2022,1,0,Medium,Other Services,Eastern & Midlands,0,0,0,0,0,1,2.97,0.0,15.99,106.05,60.02,51.55,6.97
+100577,2022,1,0,Large,Business Services,Northern & Western,0,0,0,0,0,0,3.15,0.0,18.05,99.22,62.11,54.46,7.08
+100578,2022,1,0,Large,Production,Southern,0,0,0,0,0,0,2.93,0.0,14.15,99.2,58.21,53.36,7.19
+100579,2022,1,0,Medium,Retail,Northern & Western,0,0,0,0,0,0,2.89,0.0,15.52,92.04,56.66,57.01,6.86
+100580,2022,1,1,Large,Hospitality,Eastern & Midlands,1,1,0,1,1,0,2.08,0.0,12.6,82.15,65.27,60.97,7.59
+100581,2022,1,0,Small,Construction,Northern & Western,0,0,0,0,0,0,3.02,0.0,17.97,77.7,59.63,53.41,6.98
+100582,2022,1,0,Medium,Retail,Southern,0,0,0,0,0,0,2.9,0.0,16.19,77.75,58.92,55.45,7.29
+100583,2022,1,0,Small,Business Services,Northern & Western,0,0,0,0,0,0,2.73,0.0,16.33,82.94,58.8,58.56,7.22
+100584,2022,1,0,Medium,Construction,Northern & Western,0,0,0,0,0,1,3.32,1.0,16.0,67.08,60.24,53.9,6.83
+100585,2022,1,1,Medium,Other Services,Northern & Western,1,1,1,1,0,0,2.88,0.0,15.15,83.7,64.08,57.11,7.2
+100586,2022,1,0,Large,Hospitality,Eastern & Midlands,0,0,0,0,0,0,2.93,0.0,10.15,72.59,57.48,59.34,7.05
+100587,2022,1,0,Small,Hospitality,Southern,0,0,0,0,0,0,2.31,1.0,18.2,82.56,58.11,59.69,7.01
+100588,2022,1,0,Large,Construction,Eastern & Midlands,0,0,0,0,0,0,2.56,1.0,16.62,76.24,55.03,50.17,7.22
+100589,2022,1,0,Medium,Business Services,Northern & Western,0,0,0,0,0,0,3.14,0.0,17.32,93.05,53.84,58.85,6.99
+100590,2022,1,0,Small,Production,Northern & Western,0,0,0,0,0,0,3.47,0.0,15.05,75.94,60.61,53.51,6.83
+100591,2022,1,0,Medium,Production,Eastern & Midlands,0,0,0,0,0,0,3.37,0.0,18.61,79.72,58.65,58.84,7.14
+100592,2022,1,0,Large,Hospitality,Eastern & Midlands,0,0,0,0,0,1,3.05,0.0,15.6,105.36,55.51,54.86,6.91
+100593,2022,1,0,Medium,Business Services,Northern & Western,0,0,0,0,0,0,3.38,1.0,18.43,78.53,57.03,53.38,7.03
+100594,2022,1,0,Medium,Hospitality,Southern,0,0,0,0,0,1,2.73,0.0,18.69,103.47,61.24,55.29,7.13
+100595,2022,1,1,Large,Production,Eastern & Midlands,0,1,0,0,0,1,2.59,0.0,10.77,75.93,61.27,57.46,7.22
+100596,2022,1,0,Medium,Hospitality,Northern & Western,0,0,0,0,0,0,3.84,0.0,13.95,74.4,59.6,56.18,7.17
+100597,2022,1,0,Small,Construction,Northern & Western,0,0,0,0,0,0,3.0,0.0,17.12,83.05,59.0,51.4,7.5
+100598,2022,1,1,Large,Other Services,Southern,1,1,0,1,0,0,2.74,1.0,13.06,95.66,63.59,53.65,7.52
+100599,2022,1,1,Medium,Construction,Northern & Western,1,0,0,1,0,1,2.58,1.0,13.29,113.27,68.23,57.79,6.94
+100600,2022,1,0,Large,Other Services,Eastern & Midlands,0,0,0,0,0,0,3.04,0.0,15.08,83.82,58.29,53.63,7.03
