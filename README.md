@@ -1,44 +1,77 @@
-Stress, Emotion & Tomography Eye Tracking
+Stress, Emotion & Tomography Eye Tracking — Econometric Integration Framework
+Developer: Shubhojit Bagchi
+Email: 124107294@umail.ucc.ie
+Institution: University College Cork, Ireland
 
--- Developed and Designed by Shubhojit Bagchi -- 124107294@umail.ucc.ie - University College Cork, Ireland 
+Project Context:
+Prototype developed as part of the MSc Business Economics Report 2025 — "Evaluating the Effectiveness of Corporate Mental Health Interventions on Employee Well-being and Productivity in Ireland".
 
--- Prototype Developed as part of MSc. Business Economics Report 2025 - "Evaluating the Effectiveness of Corporate Mental Health Interventions on Employee Well-being and Productivity in Ireland"
+This system fuses facial analytics, stress/emotion tracking, and a simulated tomographic imaging layer using LiDAR depth data from the iPhone 13 Pro Max (Continuity Camera). It forms part of a broader econometric research infrastructure integrating real-time behavioural metrics into corporate productivity and well-being analysis.
 
-This project fuses facial analytics, stress/emotion tracking, and a simulated tomographic imaging layer using LiDAR depth data from iPhone 13 Pro Max (Continuity Camera).
+Methodological Integration
+Econometric Context:
+This application operates as an auxiliary data collection and validation tool for Difference-in-Differences (DiD) and panel regression models assessing workplace mental health programme effectiveness.
+Processed stress/emotion data can be linked to productivity KPIs and absenteeism rates, enabling sector-specific econometric modelling.
 
-It integrates DeepFace for emotion/age/gender detection, Eye Aspect Ratio (EAR) for stress estimation, and Radon transform-based tomography to reconstruct depth slices in real-time.
-Features
--- Real-time Video Feed: Powered by macOS Continuity Camera (iPhone LiDAR-enabled).
+Core Computational Modules:
 
--- Face Detection & Eye Tracking using dlib’s 68 facial landmarks.
+DeepFace — Emotion, age, and gender classification.
 
--- Emotion, Age, Gender Analysis via DeepFace.
+Eye Aspect Ratio (EAR) — Stress estimation via blink frequency/stress correlation.
 
--- Stress Estimation: Uses Eye Aspect Ratio (EAR) for blink/stress correlation.
+Radon Transform Tomography — Simulated imaging slices from LiDAR ROI depth data, providing a layered visual proxy for cognitive load analysis.
 
-Tomographic Simulation:
+System Features
+Real-time Video Feed via macOS Continuity Camera (LiDAR-enabled iPhone).
 
--- Extracts LiDAR depth ROI (Region of Interest) of the face.
+Facial Landmark Detection — dlib’s 68-point predictor for high-precision tracking.
 
--- Applies Radon transform to generate projection sinograms.
+Emotion & Demographic Analysis — DeepFace (TensorFlow backend).
 
--- Performs inverse Radon reconstruction to create real-time tomographic slices.
+Stress Estimation — EAR metric for blink pattern analysis.
 
-Dual-window interface: Live facial overlay + separate tomography visualization.
+Tomographic Simulation —
 
-Requirements
+LiDAR ROI extraction.
 
--- Python 3.10+
+Projection sinogram generation (Radon transform).
 
--- macOS with Continuity Camera (iPhone LiDAR capable) / It can be ported to real-time medical sensors.  
+Inverse Radon reconstruction for real-time slice rendering.
 
--- OpenCV (with AVFoundation backend)
+Dual-Window Interface — Live overlay + tomographic visualisation.
 
--- Dlib (with shape_predictor_68_face_landmarks.dat)
+Econometric Applications
+Validate behavioural response variables in corporate well-being studies.
 
--- DeepFace (TensorFlow backend)
+Generate additional explanatory variables for sector-size stratified panel models.
 
--- scikit-image (for Radon/Inverse Radon transforms - Tomography)
+Facilitate experimental modules for real-time intervention monitoring.
 
--- numpy
+Technical Requirements
+Python 3.10+
+
+macOS with Continuity Camera (LiDAR-enabled iPhone) — portable to real-time medical/biometric sensors.
+
+Libraries:
+
+opencv-python (AVFoundation backend)
+
+dlib (with shape_predictor_68_face_landmarks.dat)
+
+deepface (TensorFlow backend)
+
+scikit-image (Radon/Inverse Radon transforms)
+
+numpy
+
+Repository Scope
+GitHub Repository for validation if required:
+
+Stress & Emotion Detection Tool & Econometric Application Codebase
+
+Imputed and Cleaned Datasets (Baseline, Enhanced, RealWorld)
+
+Full Imputation, Transformation, and Cleaning Strategy Documentation
+
+Python/Pandas implementation scripts with open-science reproducibility compliance.
 
