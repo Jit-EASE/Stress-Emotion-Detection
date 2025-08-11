@@ -1,0 +1,108 @@
+Imputation, Transformation, and Cleaning Strategy
+This methodology outlines the end-to-end process for creating and refining the Baseline (2019), Enhanced (2022), and RealWorld datasets, followed by a cleaning stage to address severe multicollinearity issues detected during regression diagnostics.
+
+1. Dataset Construction — Baseline, Enhanced, RealWorld
+The initial versions of the datasets were built from integrated public, private, and academic data sources to align with recognised economic and mental health (MH) benchmarks.
+
+1.1 Source Integration
+Public Datasets
+
+BEEPS (2020, World Bank/EBRD): Managerial demographics (age, education), MH responsibility indicators (EUb6a/b7a).
+
+CSO Structural Business Statistics (SBS): Firm productivity (sales per employee), demographics, NACE codes.
+
+CSO Labour Force Survey (LFS): Absenteeism and workforce size by sector/region.
+
+Enterprise Ireland Firm Registry: Firm classification by size and sector.
+
+Private Corporate MH Datasets
+
+Laya Healthcare Pulse Report (2024): Absenteeism, anxiety prevalence, MH programme uptake.
+
+SilverCloud (2023): Digital MH adoption rates, engagement outcomes.
+
+Irish Life Health Reports: HR policy trends, MH budget benchmarks.
+
+Academic & Benchmark Validation Sources
+
+UCC CUBS Healthy Workplace Report (2023): Board-level MH leadership, stigma indices.
+
+Peer-reviewed ROI benchmarks (Chisholm et al., 2016; Hawrilenko et al., 2025; IJERPH, BMC Public Health, The Lancet Psychiatry).
+
+2. Harmonisation and Data Transformations
+Standardisation of Units: Converted turnover/productivity to constant 2022 euros (CSO deflators, OECD, 2021).
+
+Annualisation: Absenteeism expressed as annualised days lost per employee.
+
+Likert to Binary: Survey scores (1–5) recoded to binary “strong agreement” flags (≥4) (Garman et al., 2022).
+
+Sectoral Recoding: NACE codes aggregated into five broad categories (ICT/Finance, Healthcare/Education, Retail/Hospitality, Manufacturing, Construction/Logistics).
+
+Log Transformations: Applied to skewed financial variables to reduce heteroskedasticity.
+
+AI Metrics Standardisation: AI-derived emotion/stress detection scores z-standardised across firm sizes.
+
+3. Imputation Logic
+Median Sectoral Imputation: Continuous gaps (absenteeism_days, turnover_rate) filled using sector-size medians (Bryson et al., 2020).
+
+Hot Deck Imputation: Categorical gaps (leadership_support) filled via donor matching on firm size & sector (Andridge & Little, 2010).
+
+Regression-Based Imputation: Manager age predicted using education, firm size, and region as predictors.
+
+Validation:
+
+Kolmogorov–Smirnov tests for distributional alignment.
+
+Sensitivity checks re-running models on complete cases.
+
+Outlier diagnostics via Cook’s Distance ±3 SD rule.
+
+Metadata consistency checks between absenteeism per employee and CSO aggregates.
+
+4. The Multicollinearity Problem in Initial Datasets
+After the Baseline, Enhanced, and RealWorld datasets were fully integrated,
+regression diagnostics revealed severe multicollinearity in the RealWorld dataset used for DiD modelling.
+
+The core issue:
+
+The dataset included treat, post, and treat_post simultaneously.
+
+Since treat_post = treat × post, it is mathematically dependent on the other two, producing perfect or near-perfect collinearity.
+
+Variance Inflation Factors (VIFs) for at least one term spiked to extreme levels, signalling unstable coefficient estimates.
+
+Risk of singular matrix errors or variable auto-drop in some econometric software.
+
+5. Cleaning Stage — Regenerating the Datasets
+To eliminate collinearity while preserving analytical integrity:
+
+treat_post removed from the stored Cleaned RealWorld dataset (can be programmatically recomputed during modelling if needed).
+
+All other transformations, imputations, and recodings were preserved exactly as in the original build.
+
+Post-cleaning VIF check:
+
+Original RealWorld: VIFs inflated due to treat_post.
+
+Cleaned RealWorld: treat and post both had VIF = 1.0, confirming no collinearity.
+
+Baseline and Enhanced datasets were also regenerated in parallel to maintain alignment with the cleaned schema.
+
+6. Simulation Assumptions (Optional AI Variables)
+For scenarios with AI-enhanced workplace MH interventions:
+
+Deployment Rates: 15% (ICT/Finance), 5% (Manufacturing/Logistics) (SilverCloud, 2023; EC, 2022).
+
+Effect Size Calibration: 10–20% well-being improvement (Hawrilenko et al., 2025).
+
+GDPR/EU AI Act Compliance: Aggregated firm-level only, non-identifiable data.
+
+Counterfactual Integration: DiD run with & without AI variables to isolate effect.
+
+7. Reproducibility and Transparency
+All integration, transformation, and imputation scripts written in Python/Pandas, imputation in scikit-learn, diagnostics in statsmodels.
+
+Version control maintained in a public GitHub repository for open-science compliance.
+
+Cleaned datasets (Baseline_Policy_Clean.csv, Enhanced_Policy_Clean.csv, RealWorld_DiD_Clean.csv) stored alongside variable-level metadata documenting source and method for every field.
+
