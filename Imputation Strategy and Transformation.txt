@@ -98,6 +98,21 @@ Effect Size Calibration: 10–20% well-being improvement (Hawrilenko et al., 202
 GDPR/EU AI Act Compliance: Aggregated firm-level only, non-identifiable data.
 
 Counterfactual Integration: DiD run with & without AI variables to isolate effect.
+AI Metrics Standardisation (Z-Score Normalisation) and Exclusion from DiD Models:
+
+All AI-derived behavioural metrics (e.g., emotion intensity scores from DeepFace, stress index from EAR metrics, cognitive load proxies from tomography) were z-standardised within the dataset.
+
+This ensures that behavioural variables are on a consistent scale, eliminating distortions caused by firm size or sector-specific baseline differences, and aligns with digital HR analytics standards (Lenze et al., 2022).
+
+However, these AI variables were not included in the core Difference-in-Differences (DiD) estimations for the Business Economics Report.
+
+The exclusion was intentional to:
+
+Avoid introducing potential measurement noise from simulated or experimental variables into causal estimation.
+
+Ensure that treatment effect estimates reflect only empirically observed economic and HR indicators.
+
+As part of the cleaning stage, all AI-related variables were removed from the Cleaned RealWorld, Baseline, and Enhanced datasets used for final econometric modelling, though the Z-score standardised versions are retained separately for experimental and simulation purposes.
 
 7. Reproducibility and Transparency
 All integration, transformation, and imputation scripts written in Python/Pandas, imputation in scikit-learn, diagnostics in statsmodels.
