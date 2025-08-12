@@ -13,11 +13,11 @@ This prototype forms part of the MSc Business Economics Report 2025:
 
 Developed as an econometric data augmentation and validation system, the framework integrates:
 
-Facial analytics (emotion, demographic, blink-frequency analysis)
+-- Facial analytics (emotion, demographic, blink-frequency analysis)
 
-Stress and cognitive load estimation
+-- Stress and cognitive load estimation
 
-Simulated tomographic imaging using LiDAR depth data from the iPhone 13 Pro Max (Continuity Camera)
+-- Simulated tomographic imaging using LiDAR depth data from the iPhone 13 Pro Max (Continuity Camera)
 
 The system’s purpose is to feed real-time sensor-based behavioural metrics into econometric models, enabling more precise causal inference.
 
@@ -25,34 +25,31 @@ Platform: Built on Dash (Plotly) for real-time multi-component econometric visua
 
 Econometric Context & Methodological Integration
 
-Primary Role: Auxiliary data capture and variable validation in econometric models.
+-- Primary Role: Auxiliary data capture and variable validation in econometric models.
 
-Analytical Linkage: Processed stress/emotion metrics matched to KPIs of official datasets.
+-- Analytical Linkage: Processed stress/emotion metrics matched to KPIs of official datasets.
 
-Objective: Improve internal validity by triangulating traditional survey/administrative data with behavioural indicators, reducing measurement error.
+-- Objective: Improve internal validity by triangulating traditional survey/administrative data with behavioural indicators, reducing measurement error.
 
 Core Computational Modules
-DeepFace — Emotion, age, and gender classification 
+-- DeepFace — Emotion, age, and gender classification 
 
-Eye Aspect Ratio (EAR) — Blink pattern-based stress estimation
+-- Eye Aspect Ratio (EAR) — Blink pattern-based stress estimation
 
-Radon Transform Tomography — LiDAR ROI depth capture → projection sinogram → inverse Radon reconstruction for real-time layered imaging of cognitive load proxies
+-- Radon Transform Tomography — LiDAR ROI depth capture → projection sinogram → inverse Radon reconstruction for real-time layered imaging of cognitive load proxies
 
-Agentic AI - Contextual Reference (powered by Open AI GPT 4o-mini - text based model to stay compliant with EU AI ACT 2024 and GDPR)
+-- Agentic AI - Contextual Reference (powered by Open AI GPT 4o-mini - text based model to stay compliant with EU AI ACT 2024 and GDPR)
 
 System Features
-Real-Time Video Capture: macOS Continuity Camera with LiDAR-enabled iPhone
+-- Real-Time Video Capture: macOS Continuity Camera with LiDAR-enabled iPhone
 
-Facial Landmark Detection: dlib 68-point predictor for sub-millimetre precision
+-- Facial Landmark Detection: dlib 68-point predictor for sub-millimetre precision
 
-Dual-Window Dash Interface: Live overlay with real-time tomographic rendering and econometric output panel
+-- Dual-Window Dash Interface: Live overlay with real-time tomographic rendering and econometric output panel
 
-Stress & Emotion Analysis: Integrated EAR and DeepFace metrics with dynamic R² and p-value updates
+-- Stress & Emotion Analysis: Integrated EAR and DeepFace metrics with dynamic R² and p-value updates
 
-Econometric Applications
-Variable Validation: Behavioural response variables for DiD analysis of corporate well-being interventions
-
-Model Enhancement: Generation of additional explanatory variables for multi-sector panel regressions
+Econometric Application
 
 Experimental Monitoring: Real-time intervention effect tracking for behavioural economics field studies
 
