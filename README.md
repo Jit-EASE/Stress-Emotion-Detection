@@ -33,8 +33,9 @@ Econometric Context & Methodological Integration
 -- Objective: Improve internal validity by triangulating traditional survey/administrative data with behavioural indicators, reducing measurement error.
 
 
-Tool Portability with full potential and low risk under EU AI ACT - Econometric modelling in Agri-Food Systems Research, Agri-Tech, Supply Chain/Logistics and Environment/Climate Research
-Tool Portability with limited potential with moderate to high risk according to EU AI ACT - Econometric Modeling in Medical Research, Workplace and Education (Live Human Monitoring)
+-- Tool Portability with full potential and low risk under EU AI ACT - Econometric modelling in Agri-Food Systems Research, Agri-Tech, Supply Chain/Logistics and Environment/Climate Research
+
+-- Tool Portability with limited potential with moderate to high risk according to EU AI ACT - Econometric Modeling in Medical Research, Workplace and Education (Live Human Monitoring)
 
 
 Core Computational Modules
