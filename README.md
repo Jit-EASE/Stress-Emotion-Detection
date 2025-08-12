@@ -31,7 +31,7 @@ Analytical Linkage: Processed stress/emotion metrics matched to KPIs of official
 Objective: Improve internal validity by triangulating traditional survey/administrative data with behavioural indicators, reducing measurement error.
 
 Core Computational Modules
-DeepFace — Emotion, age, and gender classification (TensorFlow backend)
+DeepFace — Emotion, age, and gender classification 
 
 Eye Aspect Ratio (EAR) — Blink pattern-based stress estimation
 
