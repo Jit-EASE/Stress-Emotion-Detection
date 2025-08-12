@@ -48,7 +48,7 @@ System Features
 
 -- Dual-Window Dash Interface: Live overlay with real-time tomographic rendering and econometric output panel
 
--- Stress & Emotion Analysis: Integrated EAR and DeepFace metrics with dynamic R² and p-value updates as a part of dynamic econometric modelling
+-- Stress & Emotion Analysis: Integrated EAR and DeepFace metrics with dynamic R² and p-value updates (live econometric modelling)
 
 Econometric Application
 
