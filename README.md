@@ -12,7 +12,7 @@ Project Context
 This prototype forms part of the MSc Business Economics Report 2025:
 “Evaluating the Effectiveness of Corporate Mental Health Interventions on Employee Well-being and Productivity in Ireland.”
 
-Developed as an econometric data augmentation and validation system, the framework integrates:
+Developed as an econometric data augmentation and validation system, the framework integrates - (exploratory variables only for this research)
 
 -- Facial analytics (emotion, demographic, blink-frequency analysis)
 
