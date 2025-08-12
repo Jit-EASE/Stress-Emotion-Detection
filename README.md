@@ -24,6 +24,7 @@ The system’s purpose is to feed real-time sensor-based behavioural metrics int
 Platform: Built on Dash (Plotly) for real-time multi-component econometric visualisation and statistical feedback, ensuring modular deployment and reproducible analysis workflows.
 
 Econometric Context & Methodological Integration
+
 Primary Role: Auxiliary data capture and variable validation in econometric models.
 
 Analytical Linkage: Processed stress/emotion metrics matched to KPIs of official datasets.
