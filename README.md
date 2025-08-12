@@ -37,6 +37,8 @@ Eye Aspect Ratio (EAR) — Blink pattern-based stress estimation
 
 Radon Transform Tomography — LiDAR ROI depth capture → projection sinogram → inverse Radon reconstruction for real-time layered imaging of cognitive load proxies
 
+Agentic AI - Contextual Reference (powered by Open AI GPT 4o-mini - text based model to stay compliant with EU AI ACT 2024 and GDPR)
+
 System Features
 Real-Time Video Capture: macOS Continuity Camera with LiDAR-enabled iPhone
 
