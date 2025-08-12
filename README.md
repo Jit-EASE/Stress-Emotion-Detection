@@ -1,78 +1,69 @@
-Stress, Emotion & Tomography Eye Tracking — Econometric Integration Framework
 
+Stress, Emotion & Tomography Eye Tracking — Econometric Integration Framework
 Designed and Developed by: Shubhojit Bagchi
 Email: 124107294@umail.ucc.ie
 Institution: University College Cork, Ireland
 
-Project Context:
-Prototype developed as part of the MSc Business Economics Report 2025 — "Evaluating the Effectiveness of Corporate Mental Health Interventions on Employee Well-being and Productivity in Ireland".
+Project Context
+This prototype forms part of the MSc Business Economics Report 2025:
+“Evaluating the Effectiveness of Corporate Mental Health Interventions on Employee Well-being and Productivity in Ireland.”
 
-This system fuses facial analytics, stress/emotion tracking, and a simulated tomographic imaging layer using LiDAR depth data from the iPhone 13 Pro Max (Continuity Camera). It forms part of a broader econometric research infrastructure integrating real-time behavioural metrics into corporate productivity and well-being analysis.
+Developed as an econometric data augmentation and validation system, the framework integrates:
 
-Methodological Integration
-Econometric Context:
-This application operates as an auxiliary data collection and validation tool for Difference-in-Differences (DiD) and panel regression models assessing workplace mental health programme effectiveness.
-Processed stress/emotion data can be linked to productivity KPIs and absenteeism rates, enabling sector-specific econometric modelling.
+Facial analytics (emotion, demographic, blink-frequency analysis)
 
-Core Computational Modules:
+Stress and cognitive load estimation
 
-DeepFace — Emotion, age, and gender classification.
+Simulated tomographic imaging using LiDAR depth data from the iPhone 13 Pro Max (Continuity Camera)
 
-Eye Aspect Ratio (EAR) — Stress estimation via blink frequency/stress correlation.
+The system’s purpose is to feed real-time behavioural metrics into corporate productivity and well-being econometric models, enabling more precise causal inference.
 
-Radon Transform Tomography — Simulated imaging slices from LiDAR ROI depth data, providing a layered visual proxy for cognitive load analysis.
+Platform: Built on Dash (Plotly) for real-time multi-component econometric visualisation and statistical feedback, ensuring modular deployment and reproducible analysis workflows.
+
+Econometric Context & Methodological Integration
+Primary Role: Auxiliary data capture and variable validation for Difference-in-Differences (DiD) and panel regression models.
+
+Analytical Linkage: Processed stress/emotion metrics are matched to firm-level KPIs (productivity, absenteeism) in sector-size stratified datasets.
+
+Objective: Improve internal validity by triangulating traditional survey/administrative data with behavioural indicators, reducing measurement error.
+
+Core Computational Modules
+DeepFace — Emotion, age, and gender classification (TensorFlow backend)
+
+Eye Aspect Ratio (EAR) — Blink pattern-based stress estimation
+
+Radon Transform Tomography — LiDAR ROI depth capture → projection sinogram → inverse Radon reconstruction for real-time layered imaging of cognitive load proxies
 
 System Features
-Real-time Video Feed via macOS Continuity Camera (LiDAR-enabled iPhone).
+Real-Time Video Capture: macOS Continuity Camera with LiDAR-enabled iPhone
 
-Facial Landmark Detection — dlib’s 68-point predictor for high-precision tracking.
+Facial Landmark Detection: dlib 68-point predictor for sub-millimetre precision
 
-Emotion & Demographic Analysis — DeepFace (TensorFlow backend).
+Dual-Window Dash Interface: Live overlay with real-time tomographic rendering and econometric output panel
 
-Stress Estimation — EAR metric for blink pattern analysis.
-
-Tomographic Simulation —
-
-LiDAR ROI extraction.
-
-Projection sinogram generation (Radon transform).
-
-Inverse Radon reconstruction for real-time slice rendering.
-
-Dual-Window Interface — Live overlay + tomographic visualisation.
+Stress & Emotion Analysis: Integrated EAR and DeepFace metrics with dynamic R² and p-value updates
 
 Econometric Applications
-Validate behavioural response variables in corporate well-being studies.
+Variable Validation: Behavioural response variables for DiD analysis of corporate well-being interventions
 
-Generate additional explanatory variables for sector-size stratified panel models.
+Model Enhancement: Generation of additional explanatory variables for multi-sector panel regressions
 
-Facilitate experimental modules for real-time intervention monitoring.
+Experimental Monitoring: Real-time intervention effect tracking for behavioural economics field studies
 
 Technical Requirements
 Python 3.10+
 
-macOS with Continuity Camera (LiDAR-enabled iPhone) — portable to real-time medical/biometric sensors.
+macOS with Continuity Camera (LiDAR-enabled iPhone)
 
-Libraries:
-
-opencv-python (AVFoundation backend)
-
-dlib (with shape_predictor_68_face_landmarks.dat)
-
-deepface (TensorFlow backend)
-
-scikit-image (Radon/Inverse Radon transforms)
-
-numpy
+Portable to compatible biometric or medical sensor feeds
 
 Repository Scope
-GitHub Repository for validation if required:
+GitHub Repository Contents:
 
-Stress & Emotion Detection Tool & Econometric Application Codebase
+Full Python/Pandas implementation scripts (open-science compliant)
 
-Imputed and Cleaned Datasets (Baseline, Enhanced, RealWorld)
+Baseline, Enhanced, and RealWorld datasets (imputed and cleaned)
 
-Full Imputation, Transformation, and Cleaning Strategy Documentation
+Complete data transformation, imputation, and cleaning strategy documentation
 
-Python/Pandas implementation scripts with open-science reproducibility compliance.
-
+Stress & Emotion Detection Tool source code and econometric integration modules
