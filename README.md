@@ -5,7 +5,7 @@ Designed and Developed by: Shubhojit Bagchi
 
 Email: 124107294@umail.ucc.ie
 
-Institution: University College Cork, Ireland
+Institution: Cork University Business School, University College Cork, Ireland
 
 
 Project Context
