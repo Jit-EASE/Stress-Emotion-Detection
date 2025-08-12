@@ -19,7 +19,7 @@ Stress and cognitive load estimation
 
 Simulated tomographic imaging using LiDAR depth data from the iPhone 13 Pro Max (Continuity Camera)
 
-The system’s purpose is to feed real-time behavioural metrics into corporate productivity and well-being econometric models, enabling more precise causal inference.
+The system’s purpose is to feed real-time behavioural metrics into econometric models, enabling more precise causal inference.
 
 Platform: Built on Dash (Plotly) for real-time multi-component econometric visualisation and statistical feedback, ensuring modular deployment and reproducible analysis workflows.
 
