@@ -45,7 +45,7 @@ AI Metrics Standardisation: AI-derived emotion/stress detection scores z-standar
 3. Imputation Logic
 Median Sectoral Imputation: Continuous gaps (absenteeism_days, turnover_rate) filled using sector-size medians (Bryson et al., 2020).
 
-Hot Deck Imputation: Categorical gaps (leadership_support) filled via donor matching on firm size & sector (Andridge & Little, 2010).
+Categorical gaps (e.g., leadership_support) were imputed using sector-size group mode substitution, avoiding stochastic donor-based hot deck to preserve reproducibility 
 
 Regression-Based Imputation: Manager age predicted using education, firm size, and region as predictors.
 
