@@ -86,7 +86,7 @@ for col in ['absenteeism_days', 'turnover_rate']:
                         [baseline_meta, enhanced_meta, realworld_meta]):
         sector_size_median_impute(df, col, meta)
 
-def hot_deck_impute(df, col, meta):
+def impute_by_group_mode(df, col, meta):
     if col in df.columns:
         for size in df['firm_size'].unique():
             for sec in df['sector'].unique():
@@ -94,7 +94,7 @@ def hot_deck_impute(df, col, meta):
                 mode_val = df.loc[mask, col].mode()
                 if not mode_val.empty:
                     df.loc[mask & df[col].isna(), col] = mode_val[0]
-        meta[col] = "imputation_hot_deck"
+        meta[col] = "imputation_group_mode"
 
 for col in ['leadership_support']:
     for df, meta in zip([baseline, enhanced, realworld],
